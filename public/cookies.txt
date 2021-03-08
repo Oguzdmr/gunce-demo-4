@@ -1,0 +1,7 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+demo4.togdemyazilim.com	TRUE	/	FALSE	1999999999	ASP.NET_SessionId	oxbocg45qiejsix53phf1whj
+demo4.togdemyazilim.com	TRUE	/	FALSE	1999999999	SameSite	Lax
+.fontawesome.com	TRUE	/	FALSE	1999999999	__cfduid	d7574b445d75121bbf63cd1597d8b78b31614326045
+kit.fontawesome.com	TRUE	/	FALSE	1999999999	SameSite	Lax
+

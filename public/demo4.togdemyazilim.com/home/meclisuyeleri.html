@@ -1,0 +1,1503 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+
+<!-- Mirrored from demo4.togdemyazilim.com/home/meclisuyeleri by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 26 Feb 2021 07:58:51 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta name="yandex-verification" content="9490955f85101490" />
+    <link rel="shortcut icon" />
+    <meta charset="UTF-8" />
+    <meta name="twitter:widgets:csp" content="on" />
+    
+    <link rel="profile" href="https://gmpg.org/xfn/11" />
+	<title>Meclis &#220;yeleri | G&#252;nce Belediyesi 4</title>
+    <link rel='dns-prefetch' href='http://fonts.googleapis.com/' />
+    <link rel='dns-prefetch' href='http://s.w.org/' />
+    <link rel="stylesheet" type="text/css" href="../wp-content/slick/slick.css" />
+    <link rel="alternate" type="application/rss+xml" href="../feed/index.html" />
+
+    <style type="text/css">
+
+        .kayityok {
+            text-align: center;
+            background: #cd2122;
+            width: 100%;
+            padding-top: 30px;
+        }
+
+            .kayityok h3 {
+                color: white;
+                height: 80px;
+            }
+
+        .dahafazla {
+            height: 270px;
+            padding-top: 90px;
+            text-align: center;
+            background: #cd2122;
+        }
+
+            .dahafazla h3 {
+                color: white;
+                margin-top: 0;
+            }
+
+        .gosterslayt .slick-prev, .gosterslayt .slick-next, #rezerveSlayt .slick-next, #rezerveSlayt .slick-prev {
+            background: #00355a;
+            height: 130px;
+            color: white;
+            border: none;
+            font-weight: bolder;
+            font-size: 30px;
+            position: absolute;
+            width: 40px;
+            top: 40%;
+            opacity: 0.6;
+            z-index: 50;
+        }
+
+        #hizmetSlayt .slick-prev, #hizmetSlayt .slick-next {
+            transition: all 0.5s;
+            position: absolute;
+            width: 40px;
+            top: calc(50% - 25px);
+            height: 40px;
+            opacity: 0.6;
+            z-index: 50;
+            left: 10px;
+            border-radius: 20px;
+            border: none;
+            outline: none;
+        }
+
+        #hizmetSlayt .slick-next {
+            left: calc(100% - 50px);
+        }
+
+            #hizmetSlayt .slick-prev:hover, #hizmetSlayt .slick-next:hover {
+                transition: all 0.5s;
+                opacity: 1;
+            }
+
+        .gosterslayt .slick-next, #rezerveSlayt .slick-next {
+            left: calc(100% - 40px);
+        }
+
+
+        #modal {
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            position: fixed;
+            background: #00355a50;
+            z-index: 100;
+        }
+
+            #modal i {
+                float: right;
+                color: red;
+                cursor: pointer;
+                margin: 20px;
+            }
+
+
+            #modal iframe {
+                width: 100%;
+                height: 100%;
+            }
+
+        #modal2 {
+            padding: 20px;
+            box-shadow: 0px 0px 1000px 1000px rgba(0,0,0,0.5);
+            width: 500px;
+            height: 90vh;
+            overflow-y: scroll;
+            left: calc(50vw - 250px);
+            top: 5vh;
+            position: fixed;
+            background: #dcdcdc;
+            z-index: 100;
+        }
+
+        #instadiv {
+            overflow-y: scroll;
+            height: 500px;
+        }
+
+
+        .instagramul li {
+            list-style: none;
+        }
+
+
+        #eluid08822604 span.grid-ibx__icon img, #eluid089b28a9 span.grid-ibx__icon img {
+            height: 70px;
+            width: 70px;
+        }
+
+
+        #baskanmenu {
+            width: 100%;
+            padding-left: 5px;
+        }
+
+            #baskanmenu li {
+                padding: 10px 10px 10px 0;
+                font-weight: bold;
+                list-style: none;
+            }
+
+                #baskanmenu li:hover {
+                    background: lightgray;
+                }
+
+        img.wp-smiley,
+        img.emoji {
+            display: inline !important;
+            border: none !important;
+            box-shadow: none !important;
+            height: 1em !important;
+            width: 1em !important;
+            margin: 0 .07em !important;
+            vertical-align: -0.1em !important;
+            background: none !important;
+            padding: 0 !important;
+        }
+
+        #slayt {
+            margin-top: 100px;
+            padding: 50px;
+        }
+
+            #slayt img {
+                width: 80%;
+            }
+
+        #anasayfaslayt .slick-prev, #anasayfaslayt .slick-next {
+            position: absolute;
+            height: 50px;
+            width: 50px;
+            border-radius: 50px;
+            border: none;
+            z-index: 10;
+            color: #e5e4e3;
+            background: #999;
+            font-size: 40px;
+            font-weight: bolder;
+            opacity: 0.5;
+            padding-top: 3px;
+            outline: none;
+        }
+
+
+        #anasayfaslayt .slick-prev {
+            top: 40%;
+            left: 10px;
+        }
+
+        #anasayfaslayt .slick-next {
+            top: 40%;
+            left: calc(100% - 60px);
+        }
+
+
+
+        .haber .hedslayt img, .etkinlik .hedslayt img {
+            width: 100%;
+            height: 450px;
+            object-fit: cover;
+        }
+
+        .hedslayt .slick-next, .hedslayt .slick-prev {
+            position: absolute;
+            width: 70px;
+            height: 50px;
+            top: 513px;
+            background: white;
+            left: 15px;
+            border: none;
+            outline: none;
+        }
+
+        .hedslayt .slick-next {
+            left: calc(100% - 85px);
+        }
+
+        .haber .hedslayt h3, .etkinlik .hedslayt h3 {
+            position: absolute;
+            z-index: 2;
+            overflow: hidden;
+            background: rgba(255,255,255,0.5);
+            top: calc(100% - 100px);
+            padding: 20px 5px;
+            width: 100%;
+        }
+
+        .duyuru img {
+            height: 70px;
+            margin-bottom: 20px;
+        }
+
+        .hedslayt .slick-dots {
+            text-align: center;
+            background: white;
+            padding-top: 10px;
+            margin-left: 2%;
+            height: 51px;
+            width: 96%;
+        }
+
+            .hedslayt .slick-dots li {
+                width: 70px;
+                height: 50px;
+                margin-top: -10px;
+                border-left: .5px solid lightgray;
+                border-right: .5px solid lightgray;
+            }
+
+            .hedslayt .slick-dots .slick-active {
+                background: #00355a;
+                font-size: 15px;
+                font-weight: bold;
+            }
+
+        #tumhaberler {
+            height: 50px;
+            position: absolute;
+            top: 514px;
+            z-index: 1000;
+            width: 70px;
+            border-right: .5px solid lightgray;
+            left: calc(100% - 150px);
+            color: #00355a;
+            line-height: 50px;
+        }
+
+        .etkinlik .fw-bold, .haber .fw-bold, .duyuru .fw-bold {
+            background: #00355a90;
+            position: absolute;
+            top: calc(100% - 60px);
+            height: 60px;
+            margin: 0;
+            width: calc(100% - 30px);
+        }
+
+        .hedslayt .slick-dots li button {
+            border: none;
+            outline: none;
+            padding: 0 10px;
+            border-radius: unset;
+            opacity: 1;
+            background: white;
+            color: #00355a;
+            width: 100%;
+            height: 100%;
+            box-sizing: border-box;
+            text-indent: 0;
+        }
+
+        .ortakslayt .slick-prev, .ortakslayt .slick-next {
+            position: absolute;
+            height: 30px;
+            width: 30px;
+            border-radius: 30px;
+            border: none;
+            text-align: center;
+            z-index: 10;
+            color: #d6eaf8;
+            background: #00355a;
+            font-size: 20px;
+            font-weight: bolder;
+            opacity: 0.5;
+            outline: none;
+        }
+
+        .urunSlayt .slick-next, .urunSlayt .slick-prev {
+            transition: all 0.5s;
+            position: absolute;
+            width: 30px;
+            height: 30px;
+            border: none;
+            background: #dcdcdc;
+            outline: none;
+            opacity: 0.5;
+        }
+
+        .hedaltslayt .slick-prev, .urunSlayt .slick-prev {
+            top: 40%;
+            left: 15px;
+            z-index: 1000;
+        }
+
+        .hedaltslayt .slick-next, .urunSlayt .slick-next {
+            top: 40%;
+            left: calc(100% - 45px);
+            padding-top: 3.5px;
+        }
+
+        .ortakslayt .slick-prev {
+            top: 35%;
+            left: 15px;
+        }
+
+        .ortakslayt .slick-next {
+            top: 35%;
+            left: calc(100% - 45px);
+            padding-top: 3.5px;
+        }
+
+
+        .hedaltslayt .slick-active, .hedaltslayt .slick-slide {
+            text-align: center;
+        }
+
+            .hedaltslayt .slick-active h3, .hedaltslayt .slick-slide h3 {
+                margin: 15px 10px 0 10px;
+            }
+
+            .hedaltslayt .slick-active h3, .hedaltslayt .slick-slide h3 {
+                background: #fafafa;
+                height: 80px;
+                padding-top: 20px;
+                font-weight: bolder;
+                color: #003458;
+            }
+
+        .hedaltslayt .slick-center, .hedaltslayt .slick-current {
+            text-align: center;
+            background: none;
+            height: 100px;
+        }
+
+            .hedaltslayt .slick-center h3, .hedaltslayt .slick-current h3 {
+                margin: 10px;
+                height: 100%;
+                font-weight: bolder;
+                padding-top: 30px;
+                background: #003458;
+                color: #fafafa;
+            }
+
+
+        .hedaltslayt .slick-prev:hover, .hedaltslayt .slick-next:hover,
+        #anasayfaslayt .slick-prev:hover, #anasayfaslayt .slick-next:hover,
+        .ortakslayt .slick-prev:hover, .ortakslayt .slick-next:hover, .urunSlayt .slick-next:hover, .urunSlayt .slick-prev:hover, #rezerveSlayt .slick-next:hover, #rezerveSlayt .slick-prev:hover {
+            transition: all 0.5s;
+            opacity: 1;
+        }
+
+        #logo img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+
+        .acilirkutu {
+            height: 250px;
+            overflow-y: hidden;
+        }
+
+            .acilirkutu .kaydir {
+                transition: all 0.6s;
+                position: absolute;
+                width: 100%;
+                height: 250px;
+                top: 200px;
+                background: #00355a;
+            }
+
+        .kaydir h3 {
+            font-size: 18px;
+            font-weight: bold;
+            color: white;
+            position: center;
+            border-bottom: 1px solid white;
+            margin: 0 auto;
+            padding: 0 5px;
+            height: 50px;
+            line-height: 50px;
+        }
+    </style>
+    <script src="../../kit.fontawesome.com/2bb89b89c7.js"></script>
+    <script type="text/javascript" src="../../code.jquery.com/jquery-3.4.1.min.js"></script>
+    <link rel='stylesheet' id='zn_all_g_fonts-css' href='http://fonts.googleapis.com/css?family=Roboto%3Aregular%2C300%2C700%2C900&amp;ver=40e2d7253ba005b84739f0de90242e5e' type='text/css' media='all' />
+    <link rel='stylesheet' id='wp-block-library-css' href='../wp-includes/css/dist/block-library/style.min4cba4cba.css?ver=40e2d7253ba005b84739f0de90242e5e' type='text/css' media='all' />
+    <link rel='stylesheet' id='rs-plugin-settings-css' href='../wp-content/plugins/revslider/public/assets/css/settings23da23da.css?ver=5.4.8' type='text/css' media='all' />
+    <style id='rs-plugin-settings-inline-css' type='text/css'>
+
+        #rs-demo-id {
+        }
+    </style>
+    <link rel='stylesheet' id='woocommerce-layout-css' href='../wp-content/plugins/woocommerce/assets/css/woocommerce-layouta7daa7da.css?ver=3.4.7' type='text/css' media='all' />
+    <link rel='stylesheet' id='woocommerce-smallscreen-css' href='../wp-content/plugins/woocommerce/assets/css/woocommerce-smallscreena7daa7da.css?ver=3.4.7' type='text/css' media='only screen and (max-width: 767px)' />
+    <link rel='stylesheet' id='woocommerce-general-css' href='../wp-content/plugins/woocommerce/assets/css/woocommercea7daa7da.css?ver=3.4.7' type='text/css' media='all' />
+    <style id='woocommerce-inline-inline-css' type='text/css'>
+        #login {
+            background: #00355a;
+        }
+    </style>
+    <link rel='stylesheet' href='../wp-content/themes/kallyas-child/stylef177f177.css?ver=4.17.3' type='text/css' media='all' />
+    <link rel='stylesheet' id='th-bootstrap-styles-css' href='../wp-content/themes/kallyas/css/bootstrap.minf177f177.css?ver=4.17.3' type='text/css' media='all' />
+    <link rel='stylesheet' id='th-theme-template-styles-css' href='../wp-content/themes/kallyas/css/template.minf177f177.css?ver=4.17.3' type='text/css' media='all' />
+    <link rel="stylesheet" id="115-layout.css-css" href="../wp-content/uploads/sites/33/zion-builder/cache/115-layoutbec5bec5.css?ver=51afff075fee40d82c85439914f98254" type="text/css" media="all">
+    <link rel='stylesheet' id='woocommerce-overrides-css' href='../wp-content/themes/kallyas/css/plugins/kl-woocommercef177f177.css?ver=4.17.3' type='text/css' media='all' />
+    <link rel='stylesheet' id='zion-frontend-css' href='../wp-content/themes/kallyas/framework/zion-builder/assets/css/znb_frontende2ade2ad.css?ver=1.0.27' type='text/css' media='all' />
+    <link rel='stylesheet' id='101-layout.css-css' href='../wp-content/uploads/sites/33/zion-builder/cache/101-layoutb8d6b8d6.css?ver=82cc34059b206efe3b27c97f846292b7' type='text/css' media='all' />
+    <link rel='stylesheet' id='th-theme-print-stylesheet-css' href='../wp-content/themes/kallyas/css/printf177f177.css?ver=4.17.3' type='text/css' media='print' />
+    <link rel='stylesheet' id='th-theme-options-styles-css' href='../wp-content/uploads/sites/33/zn_dynamic0a3b0a3b.css?ver=1541781286' type='text/css' media='all' />
+    <script type='text/javascript' src='../wp-content/plugins/revslider/public/assets/js/jquery.themepunch.tools.min23da23da.js?ver=5.4.8'></script>
+    <script type='text/javascript' src='../wp-content/plugins/revslider/public/assets/js/jquery.themepunch.revolution.min23da23da.js?ver=5.4.8'></script>
+    <script type='text/javascript' src='../wp-content/plugins/typed/js/typed4cba4cba.js?ver=40e2d7253ba005b84739f0de90242e5e'></script>
+    <script type='text/javascript' src='../wp-content/plugins/typed/js/frontend4cba4cba.js?ver=40e2d7253ba005b84739f0de90242e5e'></script>
+    <link rel='https://api.w.org/' href='../wp-json/index.html' />
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="../xmlrpc0db00db0.html?rsd" />
+    <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="../wp-includes/wlwmanifest.xml" />
+    <link rel="canonical" href="index-2.html" />
+    <link rel='shortlink' href='../index198a198a.html?p=101' />
+
+
+    <meta name="theme-color" content="#333">
+    <meta name="theme-color" content="#fafafa">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <!--[if lte IE 8]>
+            <script type="text/javascript">
+                var $buoop = {
+                    vs: {i: 10, f: 25, o: 12.1, s: 7, n: 9}
+                };
+
+                $buoop.ol = window.onload;
+
+                window.onload = function () {
+                    try {
+                        if ($buoop.ol) {
+                            $buoop.ol()
+                        }
+                    }
+                    catch (e) {
+                    }
+
+                    var e = document.createElement("script");
+                    e.setAttribute("type", "text/javascript");
+                    e.setAttribute("src", "https://browser-update.org/update.js");
+                    document.body.appendChild(e);
+                };
+            </script>
+            <![endif]-->
+    <!--[if lt IE 9]>
+            <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+            <![endif]-->
+
+    <noscript>
+        <style type="text/css" media="screen">
+            .zn-animateInViewport {
+                visibility: visible;
+            }
+        </style>
+    </noscript>
+
+    <style>
+        .nav-mm--dark.main-nav ul ul.sub-menu .menu-item a {
+            color: #fafafa;
+        }
+
+        .eluid0399322e .kl-iconbox__inner .kl-iconbox__icon, .eluidca297d5e .kl-iconbox__inner .kl-iconbox__icon {
+            color: #fafafa;
+        }
+
+        .element-scheme--light a {
+            color: #00355a;
+        }
+
+
+        .menuli {
+            padding: 10px 20px;
+            color: #00355a;
+            float: right;
+            list-style: none;
+            color: #00355a;
+            border-right: 1px solid lightgray;
+        }
+
+            .menuli a {
+                font-weight: bold;
+                color: #00355a;
+            }
+
+                .menuli a:hover {
+                    color: #00355a;
+                }
+
+            .menuli:nth-last-of-type(1) {
+                border-left: 1px solid lightgray;
+            }
+
+        .sol {
+            border-left: 1px solid lightgray;
+            float: left;
+            margin-left: -50px;
+            width: 40%;
+            padding: 13px 10px 0 10px;
+        }
+
+        .nav-mm--dark.main-nav .zn_mega_container .menu-item a {
+            color: #fafafa;
+        }
+
+        .site-header.style14 .site-header-top-wrapper {
+            background: #fafafa;
+        }
+
+        .tabs_style3.tabs--light > ul.nav > li > a {
+            background: #fafafa;
+        }
+
+            .tabs_style3.tabs--light > ul.nav > li > a:hover, .zn_section.eluidadf0d8f7 {
+                background: #00355a;
+            }
+
+        .listele {
+            text-align: center;
+        }
+
+        .sayfanumarasi {
+            font-weight: bold;
+            padding: 0 20px;
+            font-size: 20px;
+            color: black;
+        }
+
+        .latest_posts-wgt {
+            position: initial;
+        }
+
+        .product-list-item {
+            box-shadow: #cdcdcd 0px 0px 10px;
+        }
+
+        .woocommerce ul.products li.product .product-list-item.prod-layout-classic .kw-details-title {
+            font-weight: 500;
+        }
+    </style>
+</head>
+<body class="page-template-default page page-id-101 woocommerce-no-js kl-skin--light" itemscope="itemscope" itemtype="https://schema.org/WebPage">
+    <script>
+        
+    </script>
+    <div id="page-loading" class="kl-pageLoading--yes"><div class="preloader-pulsating-circle border-custom"></div></div>
+    <div id="page_wrapper">
+        <header id="header" class="  site-header  style14 cta_button    header--no-stick  sticky-resize headerstyle--image_color site-header--absolute nav-th--light sheader-sh--default" data-original-sticky-textscheme="sh--default" role="banner" itemscope="itemscope" itemtype="https://schema.org/WPHeader" style="z-index:100;background:#00355a; height:150px;">
+            <div class="site-header-wrapper sticky-top-area">
+
+                
+                <div class="   site-header-top-wrapper topbar-style--default  sh--default">
+                    <div class="siteheader-container container hidden-xs hidden-sm ">
+                        <div class="fxb-row site-header-row site-header-top ">
+                            <div class="col-md-12 col-sm-12">
+                                <ul style="width:100%;">
+                                    <li class="menuli sol"><i class="col-md-1 col-sm-1 fas fa-bullhorn"></i><marquee class="col-md-11 col-sm-11"><a href='../duyurular/maskemizi-takalim-mesafemizi-koruyalim-4083.html'>Maskemizi takalım mesafemizi koruyalım</a> ||| </marquee></li>
+                                    <li class="menuli"><a onclick="dil()" href="#">TR / EN</a> </li>
+                                    <li class="menuli"><i class="fas fa-cloud-sun"></i> 24°C / 56°F</li>
+                                    <li class="menuli"><a>e-Belediye</a></li>
+                                    <li class="menuli"><i class="fas fa-phone-alt"></i> Bizi Arayın: <a href="tel:+90 354 354 0354">+90 354 354 0354</a></li>
+                                    <li class="menuli">
+                                        <a target="_blank" href="https://www.instagram.com/guncebelediyesi"><i class="fab fa-instagram"></i></a>&nbsp;&nbsp;
+                                        <a target="_blank" href="https://www.twitter.com/TBB"><i class="fab fa-twitter"></i></a>&nbsp;&nbsp;
+                                        <a target="_blank" href="https://www.facebook.com/TBB1945"><i class="fab fa-facebook"></i></a>&nbsp;&nbsp;
+                                        <a target="_blank" href="https://www.youtube.com/channel/UCjqy38ANmbq6RG52Kr6eFag"><i class="fab fa-youtube"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                
+                <div class="kl-top-header site-header-main-wrapper clearfix   header-no-bottom  sh--default" style="">
+                    <div class="container siteheader-container ">
+                        <div class='fxb-col fxb-basis-auto'>
+                            <div class="fxb-row site-header-row site-header-main " style="height:108px;">
+
+                                <a class="col-md-3 col-sm-12" id="logo" href="../index.html"><img src="../../admin.togdem.com/AdminPanel_Assets/img/resimGuncelle/32/20200512134946883.png" /></a>
+
+                                <div class='col-md-9 col-sm-12 fxb-col fxb fxb-center-x fxb-center-y fxb-basis-auto fxb-sm-half site-header-col-center site-header-main-center'>
+                                    <div class="sh-component main-menu-wrapper" role="navigation" itemscope="itemscope" itemtype="https://schema.org/SiteNavigationElement">
+                                        <div class="zn-res-menuwrapper">
+                                            <a href="#" class="zn-res-trigger zn-menuBurger zn-menuBurger--3--s zn-menuBurger--anim1 " id="zn-res-trigger">
+                                                <span></span>
+                                                <span></span>
+                                                <span></span>
+                                            </a>
+                                        </div>
+
+
+                                        <div id="main-menu" class="main-nav mainnav--sidepanel mainnav--active-text mainnav--pointer-dash nav-mm--dark zn_mega_wrapper ">
+                                            <ul id="menu-sportmenu" class="main-menu main-menu-nav zn_mega_menu">
+                                                        <li class="main-menu-item menu-item">
+                                                            <a href="../index.html" class=" main-menu-link main-menu-link-top"><span>Anasayfa</span></a>
+                                                        </li>
+                                                        <li class="main-menu-item menu-item menu-item-has-children ">
+                                                            <a href="#" class=" main-menu-link main-menu-link-top"><span>Başkanımız</span></a>
+                                                            <ul class="sub-menu clearfix">
+                                                                <li class="main-menu-item menu-item"><a href="baskan.html" class=" main-menu-link main-menu-link-sub"><span>Başkan Özgeçmişi</span></a></li>
+                                                                <li class="main-menu-item menu-item"><a href="baskanalbum.html" class=" main-menu-link main-menu-link-sub"><span>Başkan Albüm</span></a></li>
+                                                                <li class="main-menu-item menu-item"><a href="baskanasor.html" class=" main-menu-link main-menu-link-sub"><span>Başkana Sor</span></a></li>
+                                                                <li class="main-menu-item menu-item"><a href="baskanmesaji.html" class=" main-menu-link main-menu-link-sub"><span>Başkanın Mesajı</span></a></li>
+                                                            </ul>
+                                                        </li>
+                                                        <li class="main-menu-item menu-item menu-item-has-children ">
+                                                            <a href="#" class=" main-menu-link main-menu-link-top"><span>Kurumsal</span></a>
+                                                            <ul class="sub-menu clearfix">
+                                                                <li class="main-menu-item menu-item"><a href="birimler.html">Birimlerimiz</a></li>
+
+                                                                    <li class="main-menu-item menu-item"><a href="baskanyardimcilari.html">Başkan Yardımcıları</a></li>
+                                                                <li class="main-menu-item menu-item"><a href="meclisuyeleri.html">Meclis Üyeleri</a></li>
+                                                                <li class="main-menu-item menu-item"><a href="encumenler.html">Encümen</a></li>
+                                                                <li class="main-menu-item menu-item"><a href="eskibaskanlar.html">Eski Başkanlar</a></li>
+                                                                <li class="main-menu-item menu-item"><a href="muhtarlar.html">Muhtarlar</a></li>
+                                                                <li class="main-menu-item menu-item"><a href="mecliskararlari.html">Meclis Kararları</a></li>
+                                                                <li class="main-menu-item menu-item"><a href="komisyonkararlari.html">Komisyon Kararları</a></li>
+                                                                <li class="main-menu-item menu-item"><a href="faaliyetraporlari.html">Faaliyet Raporları</a></li>
+                                                                <li class="main-menu-item menu-item"><a href="misyonvizyon.html">Misyon & Vizyon</a></li>
+                                                                <li class="main-menu-item menu-item"><a href="teskilatsemasi.html">Teşkilat Şeması</a></li>
+                                                                <li class="main-menu-item menu-item"><a href="etikkomisyonu.html">Etik Komisyonu</a></li>
+                                                            </ul>
+                                                        </li>
+                                                        <li class="main-menu-item menu-item menu-item-has-children ">
+                                                            <a href="#" class=" main-menu-link main-menu-link-top"><span>G&#252;nce Belediyesi 4</span></a>
+                                                            <ul class="sub-menu clearfix">
+                                                                <li class="main-menu-item menu-item"><a href="tarihce.html"> G&#252;nce Tarihçesi</a></li>
+                                                                <li class="main-menu-item menu-item"><a href="../kentrehberi.html">Kent Rehberi</a></li>
+                                                                <li class="main-menu-item menu-item"><a href="galeri/1.html">Fotoğraflarla  G&#252;nce</a></li>
+                                                                <li class="main-menu-item menu-item"><a href="sehitlerimiz.html">Şehitlerimiz</a></li>
+                                                                <li class="main-menu-item menu-item"><a href="nikahlar.html">Nikahlar</a></li>
+                                                                <li class="main-menu-item menu-item"><a>360° G&#252;nce</a></li>
+
+
+                                                            </ul>
+                                                        </li>
+                                                        <li class="main-menu-item menu-item menu-item-mega-parent menu-item-has-children">
+                                                            <a href="#" class=" main-menu-link main-menu-link-top"><span>Güncel</span></a>
+                                                            <div class='zn_mega_container container zn-megaMenuSmartArea'>
+                                                                <div class="zn-megaMenuSmartArea-content">
+                                                                    <section class="zn_section eluidead86e82     section-sidemargins    section--no " id="eluid52076447">
+                                                                        <div class="zn_section_size container zn-section-height--auto zn-section-content_algn--top ">
+                                                                            <div class="row " style="margin-bottom:20px;">
+                                                                                <div class="eluidd46696f5            col-md-3 col-sm-3   znColumnElement" id="eluidd46696f5">
+                                                                                    <div class="znColumnElement-innerWrapper-eluidd46696f5 znColumnElement-innerWrapper znColumnElement-innerWrapper--valign-top znColumnElement-innerWrapper--halign-left ">
+                                                                                        <div class="znColumnElement-innerContent">
+                                                                                            <div class="kl-title-block clearfix tbk--text- tbk--left text-left tbk-symbol--  tbk-icon-pos--after-title eluide5f35dd0 ">
+                                                                                                <h3 class="tbk__title" itemprop="headline">KATEGORİLER</h3>
+                                                                                            </div>
+                                                                                            <div class="elm-custommenu clearfix eluiddb18bc79  text-left elm-custommenu--normal">
+                                                                                                <ul class="elm-cmlist clearfix elm-cmlist--skin-light element-scheme--light zn_dummy_value elm-cmlist--normal nav-with-smooth-scroll">
+                                                                                                    <li id="mhg" class="menu-item menu-item-type-custom"><a href="../haberler/1.html"><span>Haberler</span></a></li>
+                                                                                                    <li id="meg" class="menu-item menu-item-type-custom"><a href="../etkinlikler/1.html"><span>Etkinlikler</span></a></li>
+                                                                                                    <li id="mdg" class="menu-item menu-item-type-custom"><a href="duyurular.html"><span>Duyurular</span></a></li>
+                                                                                                    <li id="mdg" class="menu-item menu-item-type-custom"><a href="../projeler.html"><span>Projeler</span></a></li>
+                                                                                                </ul>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+
+
+                                                                                <div class="eluid3c6159b5 col-md-3 col-sm-3   znColumnElement" id="eluid3c6159b5">
+                                                                                    <div class="znColumnElement-innerWrapper-eluid3c6159b5 znColumnElement-innerWrapper znColumnElement-innerWrapper--valign-top znColumnElement-innerWrapper--halign-left ">
+                                                                                        <div class="znColumnElement-innerContent">
+                                                                                            <div class="kl-title-block clearfix tbk--text- tbk--left text-left tbk-symbol--  tbk-icon-pos--after-title eluid0fba00da ">
+                                                                                                <h3 class="tbk__title" itemprop="headline"> G&#252;nce güncel haberleri.</h3>
+                                                                                                <h4 style="color:#fafafa;">Şehrimizden haberler ile olaylardan haberdar olun.</h4>
+
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+
+                                                                                <div class="eluid5451ba4a col-md-6 col-sm-6   znColumnElement" id="eluid5451ba4a">
+                                                                                    <div class="znColumnElement-innerWrapper-eluid5451ba4a znColumnElement-innerWrapper znColumnElement-innerWrapper--valign-top znColumnElement-innerWrapper--halign-left ">
+                                                                                        <div class="znColumnElement-innerContent">
+                                                                                            <div class="znSmartCarousel eluida27dbe09 newscarousel znSmartCarousel-hasPreloader znSmartCarouselMode--view element-scheme--dark">
+                                                                                                <div class="znSmartCarousel-loadingContainer">
+                                                                                                    <div class="znSmartCarousel-nav znSmartCarousel-navPosition--top-right znSmartCarousel-navStyle--default">
+                                                                                                        <span class="znSmartCarousel-arr znSmartCarousel-prev ">
+                                                                                                            <svg viewBox="0 0 256 256"><polyline fill="none" stroke="black" stroke-width="16" stroke-linejoin="round" stroke-linecap="round" points="184,16 72,128 184,240" /></svg>
+                                                                                                        </span>
+                                                                                                        <span class="znSmartCarousel-arr znSmartCarousel-next">
+                                                                                                            <svg viewBox="0 0 256 256"><polyline fill="none" stroke="black" stroke-width="16" stroke-linejoin="round" stroke-linecap="round" points="72,16 184,128 72,240" /></svg>
+                                                                                                        </span>
+                                                                                                    </div>
+                                                                                                    <div class="clearfix"></div>
+                                                                                                    <div class="znSmartCarousel-holder js-slick " data-slick='{"infinite":true,"slidesToShow":3,"slidesToScroll":1,"autoplay":false,"autoplaySpeed":6000,"easing":"linear","speed":500,"swipe":true,"touchMove":true,"adaptiveHeight":false,"responsive":{"breakpoint":1024,"settings":{"slidesToScroll":1}},"loadingContainer":".eluida27dbe09","dots":false,"arrows":true,"appendArrows":".eluida27dbe09 .znSmartCarousel-nav","prevArrow":".eluida27dbe09 .znSmartCarousel-prev","nextArrow":".eluida27dbe09 .znSmartCarousel-next"}'>
+
+
+                                                                                                        <div class='eluidb364095f col-md-4 col-sm-4 znColumnElement'><div class='znColumnElement-innerWrapper-eluidb364095f znColumnElement-innerWrapper znColumnElement-innerWrapper--valign-top znColumnElement-innerWrapper--halign-left '><div class='znColumnElement-innerContent'><div class='image-boxes image-boxes--4 kl-title_style_left eluid0d25412b   image-boxes-cover-fit-img  imgboxes_style4'><a href='../haberler/250-bin-cicek-toprakla-bulusuyor-2297.html' class='imgboxes4_link imgboxes-wrapper image-boxes-link   ' target='_self' itemprop='url'><div class='image-boxes-img-wrapper'><img src='../../admin.togdem.com/AdminPanel_Assets/img/haberler/32/250-bin-cicek-toprakla-bulusuyor-4.jpg' alt='' title='250 bin çiçek toprakla buluşuyor' class='img-responsive imgbox_image image-boxes-img cover-fit-img' /></div><span class='imgboxes-border-helper image-boxes-border-helper'></span><h3 class='m_title m_title_ext text-custom imgboxes-title image-boxes-title' itemprop='headline'><span> Belediyemiz Park ve </span></h3></a></div></div></div></div><div class='eluidb364095f col-md-4 col-sm-4 znColumnElement'><div class='znColumnElement-innerWrapper-eluidb364095f znColumnElement-innerWrapper znColumnElement-innerWrapper--valign-top znColumnElement-innerWrapper--halign-left '><div class='znColumnElement-innerContent'><div class='image-boxes image-boxes--4 kl-title_style_left eluid0d25412b   image-boxes-cover-fit-img  imgboxes_style4'><a href='../haberler/asfaltlama-calismalari-devam-ediyor-2296.html' class='imgboxes4_link imgboxes-wrapper image-boxes-link   ' target='_self' itemprop='url'><div class='image-boxes-img-wrapper'><img src='../../admin.togdem.com/AdminPanel_Assets/img/haberler/32/asfaltlama-calismalari-devam-ediyor-3.jpg' alt='' title='Asfaltlama çalışmaları devam ediyor' class='img-responsive imgbox_image image-boxes-img cover-fit-img' /></div><span class='imgboxes-border-helper image-boxes-border-helper'></span><h3 class='m_title m_title_ext text-custom imgboxes-title image-boxes-title' itemprop='headline'><span> Çapanoğlu Mahallemiz</span></h3></a></div></div></div></div><div class='eluidb364095f col-md-4 col-sm-4 znColumnElement'><div class='znColumnElement-innerWrapper-eluidb364095f znColumnElement-innerWrapper znColumnElement-innerWrapper--valign-top znColumnElement-innerWrapper--halign-left '><div class='znColumnElement-innerContent'><div class='image-boxes image-boxes--4 kl-title_style_left eluid0d25412b   image-boxes-cover-fit-img  imgboxes_style4'><a href='../haberler/sokak-hayvanlarini-unutmadik-2295.html' class='imgboxes4_link imgboxes-wrapper image-boxes-link   ' target='_self' itemprop='url'><div class='image-boxes-img-wrapper'><img src='../../admin.togdem.com/AdminPanel_Assets/img/haberler/32/sokak-hayvanlarini-unutmadik-3.jpg' alt='' title='Sokak hayvanlarını unutmadık' class='img-responsive imgbox_image image-boxes-img cover-fit-img' /></div><span class='imgboxes-border-helper image-boxes-border-helper'></span><h3 class='m_title m_title_ext text-custom imgboxes-title image-boxes-title' itemprop='headline'><span> Hava sıcaklıklarının</span></h3></a></div></div></div></div><div class='eluidb364095f col-md-4 col-sm-4 znColumnElement'><div class='znColumnElement-innerWrapper-eluidb364095f znColumnElement-innerWrapper znColumnElement-innerWrapper--valign-top znColumnElement-innerWrapper--halign-left '><div class='znColumnElement-innerContent'><div class='image-boxes image-boxes--4 kl-title_style_left eluid0d25412b   image-boxes-cover-fit-img  imgboxes_style4'><a href='../haberler/kar-gunceye-cok-yakisti-2294.html' class='imgboxes4_link imgboxes-wrapper image-boxes-link   ' target='_self' itemprop='url'><div class='image-boxes-img-wrapper'><img src='../../admin.togdem.com/AdminPanel_Assets/img/haberler/32/kar-gunceye-cok-yakisti-3.jpg' alt='' title='Kar Günce'ye çok yakıştı' class='img-responsive imgbox_image image-boxes-img cover-fit-img' /></div><span class='imgboxes-border-helper image-boxes-border-helper'></span><h3 class='m_title m_title_ext text-custom imgboxes-title image-boxes-title' itemprop='headline'><span> Türkiye’yi etkisi al</span></h3></a></div></div></div></div><div class='eluidb364095f col-md-4 col-sm-4 znColumnElement'><div class='znColumnElement-innerWrapper-eluidb364095f znColumnElement-innerWrapper znColumnElement-innerWrapper--valign-top znColumnElement-innerWrapper--halign-left '><div class='znColumnElement-innerContent'><div class='image-boxes image-boxes--4 kl-title_style_left eluid0d25412b   image-boxes-cover-fit-img  imgboxes_style4'><a href='../haberler/uc-bolgeyi-asfaltla-bulusturduk-2293.html' class='imgboxes4_link imgboxes-wrapper image-boxes-link   ' target='_self' itemprop='url'><div class='image-boxes-img-wrapper'><img src='../../admin.togdem.com/AdminPanel_Assets/img/haberler/32/uc-bolgeyi-asfaltla-bulusturduk-5.jpg' alt='' title='Üç Bölgeyi Asfaltla Buluşturduk' class='img-responsive imgbox_image image-boxes-img cover-fit-img' /></div><span class='imgboxes-border-helper image-boxes-border-helper'></span><h3 class='m_title m_title_ext text-custom imgboxes-title image-boxes-title' itemprop='headline'><span> Vatandaşlarımızın kı</span></h3></a></div></div></div></div>
+
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                                <div class="znSmartCarousel-loading"></div>
+                                                                                                <div class="clearfix"></div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </section>
+                                                                </div>
+                                                            </div>
+                                                        </li>
+                                                        <li class="main-menu-item menu-item menu-item-has-children ">
+                                                            <a href="#" class=" main-menu-link main-menu-link-top"><span>Hizmetlerimiz</span></a>
+                                                            <ul class="sub-menu clearfix">
+                                                                <li class="main-menu-item menu-item"><a>e-Belediye</a></li>
+
+                                                                <li class="main-menu-item menu-item"><a href="vefatedenler.html">Vefat Edenler</a></li>
+                                                                <li class="main-menu-item menu-item"><a href="../kentrehberi.html">Kent Rehberi</a></li>
+<li class="main-menu-item menu-item"><a href="isteksikayet.html">İstek & Şikayet</a></li>                                                                <li class="main-menu-item menu-item"><a>e-İmar</a></li>
+                                                                <li class="main-menu-item menu-item"><a href="#">Nöbetçi Eczaneler</a></li>
+                                                                <li class="main-menu-item menu-item"><a href="bifikrimvar.html">Bir Fikrim Var</a></li>
+                                                                <li class="main-menu-item menu-item"><a>Şehir Kameraları</a></li>
+                                                                <li class="main-menu-item menu-item"><a href="belgeOrnekleri.html">Nikah Belgeleri</a></li>
+                                                                <li class="main-menu-item menu-item"><a href="belgeOrnekleri.html">Belge Örnekleri</a></li>
+
+                                                            </ul>
+                                                        </li>
+                                                        <li class="main-menu-item menu-item">
+                                                            <a href="iletisim.html" class=" main-menu-link main-menu-link-top"><span>İletişim</span></a>
+                                                        </li>
+
+
+
+
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+                <div id="page_header" style="padding-top:10px;" class="page-subheader page-subheader--auto page-subheader--inherit-hp uh_zn_def_header_style  psubhead-stheader--absolute sh-tcolor--dark">
+                    <div class="bgback"></div>
+                    <div class="th-sparkles"></div>
+
+                    <div class="ph-content-wrap">
+                        <div class="ph-content-v-center">
+                            <div>
+                                <div class="container">
+                                    <div class="row" style="padding-top:15px;">
+                                        <div class="col-sm-6">
+                                            <ul vocab="http://schema.org/" typeof="BreadcrumbList" class="breadcrumbs fixclear bread-style--minimal">
+                                                <li property="itemListElement" typeof="ListItem">
+                                                    <a property="item" typeof="WebPage" href="../index.html"><span property="name">Anasayfa</span></a>
+                                                    <meta property="position" content="1">
+                                                </li>
+<li>Meclis &#220;yeleri</li>                                            </ul> <div class="clearfix"></div>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="zn_header_bottom_style"></div>
+                </div>
+                <section id="content" class="site-content">
+                    <div class="container">
+                        <div class="row">
+
+                            <div class="right_sidebar col-sm-12 col-md-9 " role="main" itemprop="mainContentOfPage">
+                                <div id="th-content-post">
+                                    <div id="post-107" class="kl-single-layout--modern post-107 post type-post status-publish format-standard has-post-thumbnail hentry category-uncategorized prodpage-style2">
+                                        <div class="itemView clearfix eBlog kl-blog kl-blog-list-wrapper kl-blog--style-light ">
+                                            <div class="kl-blog-post" itemscope="itemscope" itemtype="https://schema.org/Blog">
+                                                
+
+
+
+<div class="row gutter-0">
+    <div class="eluid2574ab50            col-md-12 col-sm-12   znColumnElement" id="eluidf7b57b6e">
+        <div class="znColumnElement-innerWrapper-eluid2574ab50 znColumnElement-innerWrapper znColumnElement-innerWrapper--valign-top znColumnElement-innerWrapper--halign-center ">
+            <div class="znColumnElement-innerContent">
+                <div class="zn_custom_container eluidbf6eeafd  smart-cnt--default   clearfix">
+                    <div class="row zn_col_container-smart_container gutter-0">
+                        <div class="eluidbd0261d8 col-md-12 col-sm-12 col-xs-12 znColumnElement">
+                            <div class="znColumnElement-innerWrapper-eluidbd0261d8 znColumnElement-innerWrapper znColumnElement-innerWrapper--valign-top znColumnElement-innerWrapper--halign-left ">
+
+                                <div class='col-md-4 col-xs-6'><div class='image-boxes image-boxes--4 kl-title_style_left eluidef311b3b   image-boxes-cover-fit-img  imgboxes_style4'><a href='#' class='imgboxes4_link imgboxes-wrapper image-boxes-link   u-mb-0' target='_self' itemprop='url'><div class='image-boxes-img-wrapper'><img style='height:270px;object-fit:contain;' src='../../admin.togdem.com/AdminPanel_Assets/img/meclisUyeleri/32/guncelleme/132.png' alt='Meclis Üyesi 1' title='Meclis Üyesi 1' class='img-responsive imgbox_image image-boxes-img'></div><span class='imgboxes-border-helper image-boxes-border-helper'></span><h3 class='m_title m_title_ext text-custom imgboxes-title image-boxes-title' itemprop='headline'><span>Meclis Üyesi 1</span></h3></a></div></div><div class='col-md-4 col-xs-6'><div class='image-boxes image-boxes--4 kl-title_style_left eluidef311b3b   image-boxes-cover-fit-img  imgboxes_style4'><a href='#' class='imgboxes4_link imgboxes-wrapper image-boxes-link   u-mb-0' target='_self' itemprop='url'><div class='image-boxes-img-wrapper'><img style='height:270px;object-fit:contain;' src='../../admin.togdem.com/AdminPanel_Assets/img/meclisUyeleri/32/guncelleme/133.png' alt='Meclis Üyesi 2' title='Meclis Üyesi 2' class='img-responsive imgbox_image image-boxes-img'></div><span class='imgboxes-border-helper image-boxes-border-helper'></span><h3 class='m_title m_title_ext text-custom imgboxes-title image-boxes-title' itemprop='headline'><span>Meclis Üyesi 2</span></h3></a></div></div><div class='col-md-4 col-xs-6'><div class='image-boxes image-boxes--4 kl-title_style_left eluidef311b3b   image-boxes-cover-fit-img  imgboxes_style4'><a href='#' class='imgboxes4_link imgboxes-wrapper image-boxes-link   u-mb-0' target='_self' itemprop='url'><div class='image-boxes-img-wrapper'><img style='height:270px;object-fit:contain;' src='../../admin.togdem.com/AdminPanel_Assets/img/meclisUyeleri/32/guncelleme/134.png' alt='Meclis Üyesi 3' title='Meclis Üyesi 3' class='img-responsive imgbox_image image-boxes-img'></div><span class='imgboxes-border-helper image-boxes-border-helper'></span><h3 class='m_title m_title_ext text-custom imgboxes-title image-boxes-title' itemprop='headline'><span>Meclis Üyesi 3</span></h3></a></div></div><div class='col-md-4 col-xs-6'><div class='image-boxes image-boxes--4 kl-title_style_left eluidef311b3b   image-boxes-cover-fit-img  imgboxes_style4'><a href='#' class='imgboxes4_link imgboxes-wrapper image-boxes-link   u-mb-0' target='_self' itemprop='url'><div class='image-boxes-img-wrapper'><img style='height:270px;object-fit:contain;' src='../../admin.togdem.com/AdminPanel_Assets/img/meclisUyeleri/32/guncelleme/135.png' alt='Meclis Üyesi 4' title='Meclis Üyesi 4' class='img-responsive imgbox_image image-boxes-img'></div><span class='imgboxes-border-helper image-boxes-border-helper'></span><h3 class='m_title m_title_ext text-custom imgboxes-title image-boxes-title' itemprop='headline'><span>Meclis Üyesi 4</span></h3></a></div></div><div class='col-md-4 col-xs-6'><div class='image-boxes image-boxes--4 kl-title_style_left eluidef311b3b   image-boxes-cover-fit-img  imgboxes_style4'><a href='#' class='imgboxes4_link imgboxes-wrapper image-boxes-link   u-mb-0' target='_self' itemprop='url'><div class='image-boxes-img-wrapper'><img style='height:270px;object-fit:contain;' src='../../admin.togdem.com/AdminPanel_Assets/img/meclisUyeleri/32/guncelleme/136.png' alt='Meclis Üyesi 5' title='Meclis Üyesi 5' class='img-responsive imgbox_image image-boxes-img'></div><span class='imgboxes-border-helper image-boxes-border-helper'></span><h3 class='m_title m_title_ext text-custom imgboxes-title image-boxes-title' itemprop='headline'><span>Meclis Üyesi 5</span></h3></a></div></div>
+                            </div>
+                        </div>
+                        <div class="row listele">
+                            <a style='color:#ff7200;' class='sayfanumarasi' href='meclisuyeleri/1.html'>1</a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <aside class="hidden-sm col-md-3 " role="complementary" itemscope="itemscope" itemtype="https://schema.org/WPSideBar">
+                                <div style="background:#00355a;" class="zn_sidebar sidebar kl-sidebar--light element-scheme--light">
+                                    <div id="search-2" class="widget zn-sidebar-widget widget_search">
+                                        <form id="searchform" class="gensearch__form" action="http://demo4.togdemyazilim.com/home/ara" method="get">
+                                            <input id="s" name="kelime" value="" class="inputbox gensearch__input" type="text" placeholder="ARA ..." />
+                                            <button type="submit" id="searchsubmit" value="go" class="gensearch__submit glyphicon glyphicon-search"></button>
+                                        </form>
+                                    </div>
+
+                                    <div class="eluid5763cd29    u-mb-50        col-md-12 col-sm-12   znColumnElement" id="eluid19645ec6">
+                                        <div class="znColumnElement-innerWrapper-eluid5763cd29 znColumnElement-innerWrapper znColumnElement-innerWrapper--valign-top znColumnElement-innerWrapper--halign-left ">
+                                            <div class="znColumnElement-innerContent">
+
+                                                <h3 style="color:white;" class="">Hizmetlerimiz</h3>
+                                                <div class='grid-ibx grid-ibx--cols-2 grid-ibx--md-cols-2 grid-ibx--sm-cols-4 grid-ibx--xs-cols-2 grid-ibx--style-lined-center grid-ibx--hover-bg eluid089b28a9 greygrid grid-ibx--theme-dark element-scheme--dark grid-ibx__flt-  ' id="eluid089b28a9">
+                                                    <div class='grid-ibx__inner'>
+                                                        <div class='grid-ibx__row clearfix'>
+
+
+                                                            <div class='grid-ibx__item  grid-ibx__item--type-icon text-center grid-ibx__item-0'>
+                                                                <div class='grid-ibx__item-inner'>
+                                                                    <a class="grid-ibx__link clearfix" target="_self" itemprop="url">
+                                                                        <div class='grid-ibx__icon-wrp'>
+                                                                            <span class="grid-ibx__icon"><img src="../../admin.togdem.com/AdminPanel_Assets/img/siteicerik/32/1/hizmetbirresim.png" /></span>
+                                                                        </div>
+                                                                        <div class="grid-ibx__title-wrp"><h4 class="grid-ibx__title element-scheme__hdg1" itemprop="headline">E-Belediye</h4></div>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                            <div class='grid-ibx__item  grid-ibx__item--type-icon text-center grid-ibx__item-0'>
+                                                                <div class='grid-ibx__item-inner'>
+                                                                    <a class="grid-ibx__link clearfix" target="_self" itemprop="url">
+                                                                        <div class='grid-ibx__icon-wrp'>
+                                                                            <span class="grid-ibx__icon"><img src="../../admin.togdem.com/AdminPanel_Assets/img/siteicerik/32/1/hizmetikiresim.png" /></span>
+                                                                        </div>
+                                                                        <div class="grid-ibx__title-wrp"><h4 class="grid-ibx__title element-scheme__hdg1" itemprop="headline">E-İmar</h4></div>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                            <div class='grid-ibx__item  grid-ibx__item--type-icon text-center grid-ibx__item-0'>
+                                                                <div class='grid-ibx__item-inner'>
+                                                                    <a href="isteksikayet.html" class="grid-ibx__link clearfix" target="_self" itemprop="url">
+                                                                        <div class='grid-ibx__icon-wrp'>
+                                                                            <span class="grid-ibx__icon"><img src="../../admin.togdem.com/AdminPanel_Assets/img/siteicerik/32/1/hizmetucresim.png" /></span>
+                                                                        </div>
+                                                                        <div class="grid-ibx__title-wrp"><h4 class="grid-ibx__title element-scheme__hdg1" itemprop="headline">İstek-Şikayet</h4></div>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                            <div class='grid-ibx__item  grid-ibx__item--type-icon text-center grid-ibx__item-0'>
+                                                                <div class='grid-ibx__item-inner'>
+                                                                    <a href="../kentrehberi.html" class="grid-ibx__link clearfix" target="_self" itemprop="url">
+                                                                        <div class='grid-ibx__icon-wrp'>
+                                                                            <span class="grid-ibx__icon"><img src="../../admin.togdem.com/AdminPanel_Assets/img/siteicerik/32/1/hizmetdortresim.png" /></span>
+                                                                        </div>
+                                                                        <div class="grid-ibx__title-wrp"><h4 class="grid-ibx__title element-scheme__hdg1" itemprop="headline">Kent Rehberi</h4></div>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                            <div class='grid-ibx__item  grid-ibx__item--type-icon text-center grid-ibx__item-0'>
+                                                                <div class='grid-ibx__item-inner'>
+                                                                    <a href="#" class="grid-ibx__link clearfix" target="_self" itemprop="url">
+                                                                        <div class='grid-ibx__icon-wrp'>
+                                                                            <span class="grid-ibx__icon"><img src="../../admin.togdem.com/AdminPanel_Assets/img/siteicerik/32/1/hizmetbesresim.png" /></span>
+                                                                        </div>
+                                                                        <div class="grid-ibx__title-wrp"><h4 class="grid-ibx__title element-scheme__hdg1" itemprop="headline">N&#246;bet&#231;i Ecz.</h4></div>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                            <div class='grid-ibx__item  grid-ibx__item--type-icon text-center grid-ibx__item-0'>
+                                                                <div class='grid-ibx__item-inner'>
+                                                                    <a href="vefatedenler.html" class="grid-ibx__link clearfix" target="_self" itemprop="url">
+                                                                        <div class='grid-ibx__icon-wrp'>
+                                                                            <span class="grid-ibx__icon"><img src="../../admin.togdem.com/AdminPanel_Assets/img/siteicerik/32/1/hizmetaltiresim.png" /></span>
+                                                                        </div>
+                                                                        <div class="grid-ibx__title-wrp"><h4 class="grid-ibx__title element-scheme__hdg1" itemprop="headline">Vefat Edenler</h4></div>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                            <div class='grid-ibx__item  grid-ibx__item--type-icon text-center grid-ibx__item-0'>
+                                                                <div class='grid-ibx__item-inner'>
+                                                                    <a href="bifikrimvar.html" class="grid-ibx__link clearfix" target="_self" itemprop="url">
+                                                                        <div class='grid-ibx__icon-wrp'>
+                                                                            <span class="grid-ibx__icon"><img src="../../admin.togdem.com/AdminPanel_Assets/img/resimGuncelle/32/292.png" /></span>
+                                                                        </div>
+                                                                        <div class="grid-ibx__title-wrp"><h4 class="grid-ibx__title element-scheme__hdg1" itemprop="headline">Fikrim Var</h4></div>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                            <div class='grid-ibx__item  grid-ibx__item--type-icon text-center grid-ibx__item-0'>
+                                                                <div class='grid-ibx__item-inner'>
+                                                                    <a class="grid-ibx__link clearfix" target="_self" itemprop="url">
+                                                                        <div class='grid-ibx__icon-wrp'>
+                                                                            <span class="grid-ibx__icon"><img src="../../admin.togdem.com/AdminPanel_Assets/img/resimGuncelle/32/293.png" /></span>
+                                                                        </div>
+                                                                        <div class="grid-ibx__title-wrp"><h4 class="grid-ibx__title element-scheme__hdg1" itemprop="headline">Şehir Kam.</h4></div>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+
+
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div id="recent-posts-2" style="background:#00355a;" class="widget zn-sidebar-widget widget_recent_entries">
+                                        <div class="latest_posts-wgt">
+                                            <h3 style="color:white;">Son Haberler</h3>
+                                            <ul class="posts latest_posts-wgt-posts">
+                                                <li style='border-color:#fafafa;' class='lp-post latest_posts-wgt-post'><a href='../haberler/250-bin-cicek-toprakla-bulusuyor-2297.html' class='hoverBorder pull-left latest_posts-wgt-thumb'><img width='54' height='54' src='../../admin.togdem.com/AdminPanel_Assets/img/haberler/32/250-bin-cicek-toprakla-bulusuyor-4.jpg' class='attachment-54x54 size-54x54 wp-post-image' alt='250 bin çiçek toprakla buluşuyor' /></a><h4 class='title latest_posts-wgt-title' itemprop='headline'><a href='../haberler/250-bin-cicek-toprakla-bulusuyor-2297.html' class='latest_posts-wgt-title-link' title='250 bin çiçek toprakla buluşuyor'>250 bin çiçek toprakla buluşuy...</a></h4><div class='text latest_posts-wgt-text' style='color:#fafafa'>Belediyemiz Park ve Bahçeler M...</div></li><li style='border-color:#fafafa;' class='lp-post latest_posts-wgt-post'><a href='../haberler/asfaltlama-calismalari-devam-ediyor-2296.html' class='hoverBorder pull-left latest_posts-wgt-thumb'><img width='54' height='54' src='../../admin.togdem.com/AdminPanel_Assets/img/haberler/32/asfaltlama-calismalari-devam-ediyor-3.jpg' class='attachment-54x54 size-54x54 wp-post-image' alt='Asfaltlama çalışmaları devam ediyor' /></a><h4 class='title latest_posts-wgt-title' itemprop='headline'><a href='../haberler/asfaltlama-calismalari-devam-ediyor-2296.html' class='latest_posts-wgt-title-link' title='Asfaltlama çalışmaları devam ediyor'>Asfaltlama çalışmaları devam e...</a></h4><div class='text latest_posts-wgt-text' style='color:#fafafa'>Çapanoğlu Mahallemizde gerçekl...</div></li><li style='border-color:#fafafa;' class='lp-post latest_posts-wgt-post'><a href='../haberler/sokak-hayvanlarini-unutmadik-2295.html' class='hoverBorder pull-left latest_posts-wgt-thumb'><img width='54' height='54' src='../../admin.togdem.com/AdminPanel_Assets/img/haberler/32/sokak-hayvanlarini-unutmadik-3.jpg' class='attachment-54x54 size-54x54 wp-post-image' alt='Sokak hayvanlarını unutmadık' /></a><h4 class='title latest_posts-wgt-title' itemprop='headline'><a href='../haberler/sokak-hayvanlarini-unutmadik-2295.html' class='latest_posts-wgt-title-link' title='Sokak hayvanlarını unutmadık'>Sokak hayvanlarını unutmadık</a></h4><div class='text latest_posts-wgt-text' style='color:#fafafa'>Hava sıcaklıklarının hissedili...</div></li><li style='border-color:#fafafa;' class='lp-post latest_posts-wgt-post'><a href='../haberler/kar-gunceye-cok-yakisti-2294.html' class='hoverBorder pull-left latest_posts-wgt-thumb'><img width='54' height='54' src='../../admin.togdem.com/AdminPanel_Assets/img/haberler/32/kar-gunceye-cok-yakisti-3.jpg' class='attachment-54x54 size-54x54 wp-post-image' alt='Kar Günce ye çok yakıştı' /></a><h4 class='title latest_posts-wgt-title' itemprop='headline'><a href='../haberler/kar-gunceye-cok-yakisti-2294.html' class='latest_posts-wgt-title-link' title='Kar Günce ye çok yakıştı'>Kar Günce'ye çok yakıştı</a></h4><div class='text latest_posts-wgt-text' style='color:#fafafa'>Türkiye’yi etkisi altına alan ...</div></li><li style='border-color:#fafafa;' class='lp-post latest_posts-wgt-post'><a href='../haberler/uc-bolgeyi-asfaltla-bulusturduk-2293.html' class='hoverBorder pull-left latest_posts-wgt-thumb'><img width='54' height='54' src='../../admin.togdem.com/AdminPanel_Assets/img/haberler/32/uc-bolgeyi-asfaltla-bulusturduk-5.jpg' class='attachment-54x54 size-54x54 wp-post-image' alt='Üç Bölgeyi Asfaltla Buluşturduk' /></a><h4 class='title latest_posts-wgt-title' itemprop='headline'><a href='../haberler/uc-bolgeyi-asfaltla-bulusturduk-2293.html' class='latest_posts-wgt-title-link' title='Üç Bölgeyi Asfaltla Buluşturduk'>Üç Bölgeyi Asfaltla Buluşturdu...</a></h4><div class='text latest_posts-wgt-text' style='color:#fafafa'>Vatandaşlarımızın kış ayı önce...</div></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </aside>
+                        </div>
+                    </div>
+                </section>
+
+
+
+        <style>
+
+            #eluid494d325b > li > a,
+            #eluid2e8167eb > li > a,
+            #eluid2cac18d7 > li > a,
+            #eluid0312a0f0 > li > a {
+                color: #fafafa;
+            }
+
+            .nlbox--style-normal .elm-nlbox__submit, .elm-social-icons.sc--normal .elm-sc-icon {
+                color: #00355a;
+                background: #fafafa;
+            }
+
+                .nlbox--style-normal .elm-nlbox__submit:hover {
+                    color: #fafafa;
+                    background: #00355a;
+                    border: #fafafa 1px solid;
+                }
+
+            .eluid9e3fee1d.zn_separator--icon-no {
+                border-color: #fafafa;
+            }
+
+            .element-scheme--light a {
+                color: white;
+            }
+        </style>
+
+
+        <div class="znpb-footer-smart-area">
+            <section class="zn_section eluidadf0d8f7     section-sidemargins    section--no " id="eluidadf0d8f7">
+                <div class="zn_section_size container zn-section-height--auto zn-section-content_algn--top ">
+                    <div class="row gutter-0">
+                        <div class="eluid61c48d92  col-lg-offset-0          col-md-3 col-sm-3   znColumnElement" id="eluid61c48d92">
+                            <div class="znColumnElement-innerWrapper-eluid61c48d92 znColumnElement-innerWrapper znColumnElement-innerWrapper--valign-top znColumnElement-innerWrapper--halign-left ">
+                                <div class="znColumnElement-innerContent">
+
+                                    <div class="kl-title-block clearfix tbk--text- tbk--left text-left tbk-symbol--  tbk-icon-pos--after-title eluidd0aabff5 "><h3 class="tbk__title" itemprop="headline">Bizden son haberleri almak i&#231;in b&#252;ltenimize abone olun.</h3></div>
+                                    <div class="elm-nlbox eluidcaf6c605  nlbox--style-normal nlbox--layout-separate">
+                                        <form method="post" class="elm-nlbox__form js-mcForm clearfix" name="newsletter_form">
+                                            <input type="text" name="mc_email" class="elm-nlbox__input nl-email form-control js-mcForm-email btn--square" value="" placeholder="mail@email.com" required="required" />
+                                            <button type="submit" name="submit" class="elm-nlbox__submit btn--square">
+                                                Abone Ol
+                                            </button>
+                                            <input type="hidden" name="mailchimp_list" class="nl-lid" value="acc4aa1f3d" />
+                                            <input type="hidden" name="action" value="hg_mailchimp_register" />
+                                            <input type="hidden" name="nonce" value="5355d7f036" class="zn_hg_mailchimp" />
+                                        </form>
+                                        <div class="elm-nlbox__result zn_mailchimp_result"></div>
+                                        <div class="zn-mcNl-result js-mcForm-result"></div>
+                                    </div>
+                                    <div class="kl-title-block clearfix tbk--text- tbk--left text-left tbk-symbol--  tbk-icon-pos--after-title eluid47469314 ">
+                                        <h3 class="tbk__title" itemprop="headline">SOSYAL MEDYA</h3>
+                                    </div>
+                                    <div class="elm-socialicons eluid34e79bdb  text-left sc-icon--left elm-socialicons--light element-scheme--light">
+                                        <ul class="elm-social-icons sc--normal sh--rounded sc-lay--normal clearfix">
+                                            <li class="elm-social-icons-item">
+                                                <a target="_blank" href="https://www.facebook.com/TBB1945" class="elm-sc-link elm-sc-icon-0" target="_self" itemprop="url">
+                                                    <span class="elm-sc-icon " data-zniconfam="kl-social-icons" data-zn_icon=""></span>
+                                                </a>
+                                                <div class="clearfix"></div>
+                                            </li>
+                                            <li class="elm-social-icons-item">
+                                                <a target="_blank" href="https://www.twitter.com/TBB" class="elm-sc-link elm-sc-icon-1" target="_self" itemprop="url">
+                                                    <span class="elm-sc-icon " data-zniconfam="kl-social-icons" data-zn_icon=""></span>
+                                                </a>
+                                                <div class="clearfix"></div>
+                                            </li>
+                                            <li class="elm-social-icons-item">
+                                                <a target="_blank" href="https://www.instagram.com/guncebelediyesi" class="elm-sc-link elm-sc-icon-2" target="_self" itemprop="url">
+                                                    <span class="elm-sc-icon " data-zniconfam="kl-social-icons" data-zn_icon=""></span>
+                                                </a>
+                                                <div class="clearfix"></div>
+                                            </li>
+                                            <li class="elm-social-icons-item">
+                                                <a target="_blank" href="https://www.youtube.com/channel/UCjqy38ANmbq6RG52Kr6eFag" class="elm-sc-link elm-sc-icon-3" target="_self" itemprop="url">
+                                                    <i class="fab fa-youtube elm-sc-icon"></i>
+                                                </a>
+                                                <div class="clearfix"></div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="eluid3d6116dc  col-lg-offset-1          col-md-2 col-sm-2   znColumnElement" id="eluid3d6116dc">
+                            <div class="znColumnElement-innerWrapper-eluid3d6116dc znColumnElement-innerWrapper znColumnElement-innerWrapper--valign-top znColumnElement-innerWrapper--halign-left ">
+                                <div class="znColumnElement-innerContent">
+                                    <div class="kl-title-block clearfix tbk--text- tbk--left text-left tbk-symbol--  tbk-icon-pos--after-title eluid76e1e360 ">
+                                        <h3 class="tbk__title" itemprop="headline">Kurumsal</h3>
+                                    </div>
+                                    <div class="elm-custommenu clearfix eluid494d325b  text-left elm-custommenu--normal">
+                                        <ul id="eluid494d325b" class="elm-cmlist clearfix elm-cmlist--skin-light element-scheme--light zn_dummy_value elm-cmlist--normal nav-with-smooth-scroll">
+
+                                                    <li class="main-menu-item menu-item"><a href="birimler.html">Birimlerimiz</a></li>
+                                                        <li class="main-menu-item menu-item"><a href="baskanyardimcilari.html">Başkan Yardımcıları</a></li>
+                                                    <li class="main-menu-item menu-item"><a href="meclisuyeleri.html">Meclis Üyeleri</a></li>
+                                                    <li class="main-menu-item menu-item"><a href="encumenler.html">Encümen</a></li>
+                                                    <li class="main-menu-item menu-item"><a href="eskibaskanlar.html">Eski Başkanlar</a></li>
+                                                    <li class="main-menu-item menu-item"><a href="mecliskararlari.html">Meclis Kararları</a></li>
+                                                    <li class="main-menu-item menu-item"><a href="komisyonkararlari.html">Komisyon Kararları</a></li>
+                                                    <li class="main-menu-item menu-item"><a href="faaliyetraporlari.html">Faaliyet Raporları</a></li>
+                                                    <li class="main-menu-item menu-item"><a href="faaliyetraporlari.html">Misyon & Vizyon</a></li>
+
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="eluidac4d52ea            col-md-2 col-sm-2   znColumnElement" id="eluidac4d52ea">
+                            <div class="znColumnElement-innerWrapper-eluidac4d52ea znColumnElement-innerWrapper znColumnElement-innerWrapper--valign-top znColumnElement-innerWrapper--halign-left ">
+                                <div class="znColumnElement-innerContent">
+                                    <div class="kl-title-block clearfix tbk--text- tbk--left text-left tbk-symbol--  tbk-icon-pos--after-title eluidf677322e ">
+                                        <h3 class="tbk__title" itemprop="headline">G&#252;nce Belediyesi 4</h3>
+                                    </div>
+                                    <div class="elm-custommenu clearfix eluid2e8167eb  text-left elm-custommenu--normal">
+                                        <ul id="eluid2e8167eb" class="elm-cmlist clearfix elm-cmlist--skin-light element-scheme--light zn_dummy_value elm-cmlist--normal nav-with-smooth-scroll">
+
+                                                    <li class="main-menu-item menu-item"><a href="tarihce.html"> G&#252;nceTarihçesi</a></li>
+                                                    <li class="main-menu-item menu-item"><a href="kentrehberi.html">Kent Rehberi</a></li>
+                                                    <li class="main-menu-item menu-item"><a href="galeri/1.html">Fotoğraflarla  G&#252;nce</a></li>
+                                                    <li class="main-menu-item menu-item"><a href="sehitlerimiz.html">Şehitlerimiz</a></li>
+                                                    <li class="main-menu-item menu-item"><a href="nikahlar.html">Nikahlar</a></li>
+                                                    <li class="main-menu-item menu-item"><a>360° G&#252;nce</a></li>
+
+
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="eluidac498840            col-md-2 col-sm-2   znColumnElement" id="eluidac498840">
+                            <div class="znColumnElement-innerWrapper-eluidac498840 znColumnElement-innerWrapper znColumnElement-innerWrapper--valign-top znColumnElement-innerWrapper--halign-left ">
+                                <div class="znColumnElement-innerContent">
+                                    <div class="kl-title-block clearfix tbk--text- tbk--left text-left tbk-symbol--  tbk-icon-pos--after-title eluid54460e39 ">
+                                        <h3 class="tbk__title" itemprop="headline">G&#252;ncel</h3>
+                                    </div>
+                                    <div class="elm-custommenu clearfix eluid2cac18d7  text-left elm-custommenu--normal">
+                                        <ul id="eluid2cac18d7" class="elm-cmlist clearfix elm-cmlist--skin-light element-scheme--light zn_dummy_value elm-cmlist--normal nav-with-smooth-scroll">
+                                                    <li id="mhg" class="menu-item menu-item-type-custom"><a href="../haberler/index.html"><span>Haberler</span></a></li>
+                                                    <li id="meg" class="menu-item menu-item-type-custom"><a href="../etkinlikler.html"><span>Etkinlikler</span></a></li>
+                                                    <li id="mdg" class="menu-item menu-item-type-custom"><a href="#"><span>Duyurular</span></a></li>
+                                                    <li id="mdg" class="menu-item menu-item-type-custom"><a href="projeler.html"><span>Projeler</span></a></li>
+
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="eluid065ebf2d            col-md-2 col-sm-2   znColumnElement" id="eluid065ebf2d">
+                            <div class="znColumnElement-innerWrapper-eluid065ebf2d znColumnElement-innerWrapper znColumnElement-innerWrapper--valign-top znColumnElement-innerWrapper--halign-left ">
+                                <div class="znColumnElement-innerContent">
+                                    <div class="kl-title-block clearfix tbk--text- tbk--left text-left tbk-symbol--  tbk-icon-pos--after-title eluid28e31d81 ">
+                                        <h3 class="tbk__title" itemprop="headline">Servisler</h3>
+                                    </div>
+                                    <div class="elm-custommenu clearfix eluid0312a0f0  text-left elm-custommenu--normal">
+                                        <ul id="eluid0312a0f0" class="elm-cmlist clearfix elm-cmlist--skin-light element-scheme--light zn_dummy_value elm-cmlist--normal nav-with-smooth-scroll">
+                                                    <li class="main-menu-item menu-item"><a>e-Belediye</a></li>
+                                                    <li class="main-menu-item menu-item"><a href="vefatedenler.html">Vefat Edenler</a></li>
+                                                    <li class="main-menu-item menu-item"><a href="kentrehberi.html">Kent Rehberi</a></li>
+                                                    <li class="main-menu-item menu-item"><a href="iletisim.html">İstek & Şikayet</a></li>
+                                                    <li class="main-menu-item menu-item"><a>e-İmar</a></li>
+                                                    <li class="main-menu-item menu-item"><a href="#">Nöbetçi Eczaneler</a></li>
+                                                    <li class="main-menu-item menu-item"><a href="bifikrimvar.html">Bir Fikrim Var</a></li>
+                                                    <li class="main-menu-item menu-item"><a>Şehir Kameraları</a></li>
+                                                    <li class="main-menu-item menu-item"><a href="index.html#">Nikah Belgeleri</a></li>
+                                                    <li class="main-menu-item menu-item"><a href="index.html#">Belge Örnekleri</a></li>
+
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <div class="eluid8b7ba48a            col-md-12 col-sm-12   znColumnElement" id="eluid8b7ba48a">
+                            <div class="znColumnElement-innerWrapper-eluid8b7ba48a znColumnElement-innerWrapper znColumnElement-innerWrapper--valign-top znColumnElement-innerWrapper--halign-left ">
+                                <div class="znColumnElement-innerContent">
+                                    <div class="zn_separator clearfix eluid9e3fee1d zn_separator--icon-no "></div>
+
+                                    <div class="zn_text_box eluida1fd11b7  zn_text_box-light element-scheme--light">
+
+                                        <p>
+
+                                            <span style="font-size: 12px;color:#fafafa;">
+                                                 <span><a target='_blank' href='https://togdemyazilim.com/'>TOGDEM Yazılım</a></span> tarafından özenle yapıldı.
+                                            </span>
+                                        </p>
+                                    </div>
+
+                                    <ul style="width:100%;text-align:center;vertical-align:central;color:white;">
+                                        <li class="elm-social-icons-item"><p class="copyr">Ziyaretçi Sayısı: </p></li>
+                                        <li class="elm-social-icons-item"><p class="copyr">Online: 0</p></li>
+                                        <li class="elm-social-icons-item"><p class="copyr">Bugün: 0</p></li>
+                                        <li class="elm-social-icons-item"><p class="copyr">Bu Ay: 0</p></li>
+                                        <li class="elm-social-icons-item"><p class="copyr">Bu Yıl: 0</p></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <div id="modal" style="display:none;">
+        <i onclick='modalkapat()' class='fas fa-window-close fa-3x'></i>
+    </div>
+    <div id="modal2" style="display:none;">
+        <h3 class="text-center">Online Sipariş Formu</h3>
+        <form method="post">
+            <div class="form-group">
+                <label class="control-label">Ürün Adı</label>
+                <input type="text" id="urunAdi" required name="urunAdi" readonly class="form-control" />
+            </div>
+            <div class="form-group">
+                <label class="control-label">Adedi</label>
+                <input type="number" id="adedi" required name="adedi" readonly class="form-control" />
+            </div>
+            <div class="form-group">
+                <label class="control-label">Ad Soyad/Firma Adı</label>
+                <input type="text" id="isim" required name="isim" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label class="control-label">E-Mail</label>
+                <input type="email" id="email" required name="email" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label class="control-label">Telefon</label>
+                <input type="tel" id="telefon" required name="telefon" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label class="control-label">Adres</label>
+                <input type="tel" id="adres" required name="adres" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label class="control-label">Mesaj</label>
+                <input type="tel" id="mesaj" required name="mesaj" class="form-control" />
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Gönder" name="gonder" class="btn btn-primary" />
+                <input type="button" value="İptal" id="iptal" class="btn btn-danger" />
+            </div>
+        </form>
+    </div>
+
+
+
+    <a href="#" id="totop" class="u-trans-all-2s js-scroll-event" data-forch="300" data-visibleclass="on--totop">Yukarı</a>
+
+    <script type="text/javascript" src="../wp-content/themes/kallyas/js/plugins.minf177.js"></script>
+    <script type="text/javascript" src="../wp-content/themes/kallyas/addons/scrollmagic/scrollmagicf177.js"></script>
+    <script type='text/javascript'>
+        /* <![CDATA[ */
+        var ZnThemeAjax = { "ajaxurl": "\/sport\/wp-admin\/admin-ajax.php", "zn_back_text": "Back", "zn_color_theme": "light", "res_menu_trigger": "992", "top_offset_tolerance": "", "logout_url": "https:\/\/demo.kallyas.net\/sport\/wp-login.php?action=logout&redirect_to=https%3A%2F%2Fdemo.kallyas.net%2Fsport&_wpnonce=dc9d194194" };
+        /* ]]> */
+    </script>
+    <script type='text/javascript' src='../wp-content/themes/kallyas/js/znscript.minf177f177.js?ver=4.17.3'></script>
+    <script type="text/javascript" src="../wp-content/themes/kallyas/addons/slick/slick.minf177.js"></script>
+    <script type='text/javascript'>
+        /* <![CDATA[ */
+        var ZionBuilderFrontend = { "allow_video_on_mobile": "" };
+        /* ]]> */
+    </script>
+    <script type='text/javascript' src='../wp-content/themes/kallyas/framework/zion-builder/dist/znpb_frontend.bundlee2ade2ad.js?ver=1.0.27'></script>
+    <script type='text/javascript' src='../wp-includes/js/wp-embed.min4cba4cba.js?ver=40e2d7253ba005b84739f0de90242e5e'></script>
+    <script type="text/javascript" src="../wp-content/slick/slick.min.js"></script>
+    <svg style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <defs>
+            <symbol id="icon-znb_close-thin" viewBox="0 0 100 100">
+                <path d="m87.801 12.801c-1-1-2.6016-1-3.5 0l-33.801 33.699-34.699-34.801c-1-1-2.6016-1-3.5 0-1 1-1 2.6016 0 3.5l34.699 34.801-34.801 34.801c-1 1-1 2.6016 0 3.5 0.5 0.5 1.1016 0.69922 1.8008 0.69922s1.3008-0.19922 1.8008-0.69922l34.801-34.801 33.699 33.699c0.5 0.5 1.1016 0.69922 1.8008 0.69922 0.69922 0 1.3008-0.19922 1.8008-0.69922 1-1 1-2.6016 0-3.5l-33.801-33.699 33.699-33.699c0.89844-1 0.89844-2.6016 0-3.5z" />
+            </symbol>
+            <symbol id="icon-znb_play" viewBox="0 0 22 28">
+                <path d="M21.625 14.484l-20.75 11.531c-0.484 0.266-0.875 0.031-0.875-0.516v-23c0-0.547 0.391-0.781 0.875-0.516l20.75 11.531c0.484 0.266 0.484 0.703 0 0.969z"></path>
+            </symbol>
+        </defs>
+    </svg>
+    <style>
+        .galeriSlayt {
+            width: 100vw;
+            height: 100vh;
+            top: 0;
+            left: 0;
+            background: rgba(0, 53, 90, 0.65);
+        }
+    </style>
+    <link rel="stylesheet" href="../../cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css">
+    <style>
+        .photo-gallery {
+  color:#313437;
+  background-color:#fff;
+}
+
+.photo-gallery p {
+  color:#7d8285;
+}
+
+.photo-gallery h2 {
+  font-weight:bold;
+  margin-bottom:40px;
+  padding-top:40px;
+  color:inherit;
+}
+
+@media (max-width:767px) {
+  .photo-gallery h2 {
+    margin-bottom:25px;
+    padding-top:25px;
+    font-size:24px;
+  }
+}
+
+.photo-gallery .intro {
+  font-size:16px;
+  max-width:500px;
+  margin:0 auto 40px;
+}
+
+.photo-gallery .intro p {
+  margin-bottom:0;
+}
+
+.photo-gallery .photos {
+  padding-bottom:20px;
+}
+
+.photo-gallery .item {
+  padding-bottom:30px;
+}
+
+
+    </style>
+    <script src="../../cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+    <script src="../../cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox.min.js"></script>
+
+
+
+    <script>
+
+        $('.gosterslayt').slick({
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            autoplay: true,
+            arrows: true,
+        });
+
+        $(".urunSlayt").slick({
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            autoplay: true,
+        });
+
+
+        $('#slayt').slick({
+            infinite: true,
+            slidesToShow: 7,
+            slidesToScroll: 1,
+            infinite: true,
+            arrows: false,
+            autoplay: true,
+        });
+
+        $('.hedslayt').slick({
+            autoplay: true,
+            autoplaySpeed:5000,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            arrows: true,
+            dots: true,
+            fade: true,
+            responsive:[
+
+                {
+                    breakpoint: 1200,
+                settings: {
+                    dots: false,
+                    arrows: false,
+                    }
+                }],
+        });
+
+        $('#anasayfaslayt').slick({
+            autoplay: true,
+            autoplaySpeed: 5000,
+        });
+
+        $('.ortakslayt').slick({
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            dots: false,
+            autoplay: true,
+            arrows: true,
+            centerMode: true,
+            focusOnSelect: true,
+        });
+
+        $("#rezerveSlayt").slick({
+            autoplay: true,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            arrows: true,
+
+        });
+
+        $(".hedaltslayt .slick-slide").attr("style", "height:" + $(".hedaltslayt .slick-active").innerWidth() - 20 + "px");
+        $(".hedaltslayt .slick-center").attr("style", "height:" + $(".hedaltslayt .slick-active").innerWidth() - 20 + "px");
+
+        $(function () {
+            $.ajax({
+                type: "GET",
+                dataType: "jsonp",
+                cache: false,
+                url: "",
+                success: function (data) {
+                    for (var i = 0; i <= data.data.length; i++) {
+                        $(".instagramul").append("<li><a target='_blank' href='" + data.data[i].link + "'><img src='" + data.data[i].images.low_resolution.url + "' /><h4>" + (data.data[i].caption!=null?data.data[i].caption.text:"") + "</h4></a></li>");
+                    }
+
+                }
+            });
+        });
+
+        function dil() {
+        var Veri = { Dil: 'en' };
+        $.ajax(
+            {
+                url: '/Home/DilDegistir',
+                type: 'POST',
+                dataType: 'json',
+                data: Veri,
+                success: function (data) {
+                    location.reload();
+                }
+            });
+    }
+
+        function goster(src, tip) {
+            if (tip == 1)
+                document.getElementById("modal").setAttribute("style", "background:url(" + src + ") center no-repeat;background-size:contain;");
+            else if (tip == 0) {
+                $("#modal").html($("#modal").html() + "<iframe src='" + src + "'></iframe>");
+                $("#modal").attr("style", "display:inline-block;");
+            }
+        }
+
+       function modalkapat() {
+           $("#modal").attr("style","display:none;");
+           $("#modal").html("<i onclick='modalkapat()' class='fas fa-window-close fa-3x'></i>");
+        }
+
+        $('.slayt').slick({
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            autoplay: true,
+            centerMode: true,
+            arrows: true,
+        });
+
+        $('#hizmetSlayt').slick({
+            slidesToShow: 6,
+            slidesToScroll: 1,
+            autoplay: false,
+            centerMode: true,
+            arrows: true,
+            dots:false,
+            responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        infinite: true,
+      }
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 1
+      }
+    }],
+        });
+
+    $(document).ready(function () {
+
+        $(".slick-prev").html("<i class='fas fa-chevron-left'></i>");
+        $(".slick-next").html("<i class='fas fa-chevron-right'></i>");
+    });
+
+    $(".acilirkutu").mouseover(function () {
+            $(".kaydir",this).attr("style","transition: all 0.6s;top: 0;");
+    });
+
+    $(".acilirkutu").mouseleave(function () {
+            $(".kaydir",this).removeAttr("style");
+    });
+
+
+        $("#iptal").click(function () {
+            $("#modal2").attr("style", "display:none");
+            $("#modal2 input").val("");
+            $("#modal2 input:button").attr("value", "İptal");
+            $("#modal2 input:submit").attr("value", "Gönder");
+        });
+        $("#btnAl").click(function () {
+            $("#modal2 #adedi").val($("#urunAdedi").val());
+            $("#modal2 #urunAdi").val($("#urunIsmi").text());
+            $("#modal2").attr("style", "display:block");
+        });
+
+    </script>
+
+
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="../../connect.facebook.net/tr_TR/sdk.js#xfbml=1&version=v4.0"></script>
+    <script async src="../../platform.twitter.com/widgets.js" charset="utf-8"></script>
+</body>
+
+
+<!-- Mirrored from demo4.togdemyazilim.com/home/meclisuyeleri by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 26 Feb 2021 07:58:58 GMT -->
+</html>
+
+

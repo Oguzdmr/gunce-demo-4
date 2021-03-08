@@ -1,0 +1,56 @@
+HTTrack3.49-2+htsswf+htsjava launched on Fri, 26 Feb 2021 10:54:04 at http://demo4.togdemyazilim.com/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" http://demo4.togdemyazilim.com/ -O1 "C:\My Web Sites\gunce_belediye" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+10:56:58	Error: 	"Not Found" (404) at link demo4.togdemyazilim.com/feed/index.html (from demo4.togdemyazilim.com/)
+10:58:26	Error: 	"Not Found" (404) at link demo4.togdemyazilim.com/xmlrpc0db0.php?rsd (from demo4.togdemyazilim.com/)
+10:58:26	Error: 	"Not Found" (404) at link demo4.togdemyazilim.com/index.html (from demo4.togdemyazilim.com/)
+10:58:26	Error: 	"Not Found" (404) at link demo4.togdemyazilim.com/index198a.html?p=101 (from demo4.togdemyazilim.com/)
+11:02:41	Error: 	"Not Found" (404) at link demo4.togdemyazilim.com/home/kentrehberi (from demo4.togdemyazilim.com/)
+11:02:43	Error: 	"Not Found" (404) at link https://img.youtube.com/vi/C2YwlivReWo/mqdefault.jpg (from demo4.togdemyazilim.com/)
+11:02:43	Error: 	"Not Found" (404) at link demo4.togdemyazilim.com/haberler/ (from demo4.togdemyazilim.com/)
+11:02:43	Error: 	"Not Found" (404) at link demo4.togdemyazilim.com/etkinlikler (from demo4.togdemyazilim.com/)
+11:02:43	Error: 	"Not Found" (404) at link demo4.togdemyazilim.com/home/projeler (from demo4.togdemyazilim.com/)
+11:02:44	Warning: 	File not parsed, looks like binary: demo4.togdemyazilim.com/wp-content/plugins/revslider/public/assets/css/openhand.html
+11:02:44	Warning: 	Warning: store application/octet-stream without scan: C:/My Web Sites/gunce_belediye/demo4.togdemyazilim.com/wp-content/plugins/revslider/public/assets/css/openhand.html
+11:02:44	Warning: 	File not parsed, looks like binary: demo4.togdemyazilim.com/wp-content/plugins/revslider/public/assets/css/closedhand.html
+11:02:44	Warning: 	Warning: store application/octet-stream without scan: C:/My Web Sites/gunce_belediye/demo4.togdemyazilim.com/wp-content/plugins/revslider/public/assets/css/closedhand.html
+11:02:45	Warning: 	File not parsed, looks like binary: demo4.togdemyazilim.com/wp-content/themes/kallyas/template_helpers/icons/glyphicons_halflingsregular/glyphicons_halflingsregular.html
+11:02:45	Warning: 	Warning: store application/octet-stream without scan: C:/My Web Sites/gunce_belediye/demo4.togdemyazilim.com/wp-content/themes/kallyas/template_helpers/icons/glyphicons_halflingsregular/glyphicons_halflingsregular.html
+11:02:45	Error: 	"Not Found" (404) at link demo4.togdemyazilim.com/duyurular/index.html (from demo4.togdemyazilim.com/duyurular/maskemizi-takalim-mesafemizi-koruyalim-4083)
+11:02:45	Error: 	"Not Found" (404) at link demo4.togdemyazilim.com/home/index.html (from demo4.togdemyazilim.com/home/baskan)
+11:04:31	Error: 	"Not Found" (404) at link demo4.togdemyazilim.com/home/feed/index.html (from demo4.togdemyazilim.com/home/galeri/1)
+11:04:31	Error: 	"Not Found" (404) at link demo4.togdemyazilim.com/home/xmlrpc0db0.php?rsd (from demo4.togdemyazilim.com/home/galeri/1)
+11:04:31	Error: 	"Not Found" (404) at link demo4.togdemyazilim.com/home/galeri/index.html (from demo4.togdemyazilim.com/home/galeri/1)
+11:04:31	Error: 	"Not Found" (404) at link demo4.togdemyazilim.com/home/index198a.html?p=101 (from demo4.togdemyazilim.com/home/galeri/1)
+11:04:32	Error: 	"Not Found" (404) at link demo4.togdemyazilim.com/haberler/index.html (from demo4.togdemyazilim.com/haberler/1)
+11:04:32	Error: 	"Not Found" (404) at link demo4.togdemyazilim.com/etkinlikler/index.html (from demo4.togdemyazilim.com/etkinlikler/1)
+11:05:17	Error: 	"Not Found" (404) at link demo4.togdemyazilim.com/home/baskanalbum/index.html (from demo4.togdemyazilim.com/home/baskanalbum/1)
+11:05:17	Error: 	"Not Found" (404) at link demo4.togdemyazilim.com/home/baskanAlbum/index.html (from demo4.togdemyazilim.com/home/baskanAlbum/1)
+11:05:17	Error: 	"Not Found" (404) at link demo4.togdemyazilim.com/birimler/index.html (from demo4.togdemyazilim.com/birimler/ornek-birim-52)
+11:05:17	Error: 	"Not Found" (404) at link demo4.togdemyazilim.com/home/birimler/index.html (from demo4.togdemyazilim.com/home/birimler/1)
+11:05:17	Error: 	"Not Found" (404) at link demo4.togdemyazilim.com/home/baskanyardimcilari/index.html (from demo4.togdemyazilim.com/home/baskanyardimcilari/1)
+11:05:17	Error: 	"Not Found" (404) at link demo4.togdemyazilim.com/home/meclisuyeleri/index.html (from demo4.togdemyazilim.com/home/meclisuyeleri/1)
+11:05:17	Error: 	"Not Found" (404) at link demo4.togdemyazilim.com/home/encumenler/index.html (from demo4.togdemyazilim.com/home/encumenler/1)
+11:05:17	Error: 	"Not Found" (404) at link demo4.togdemyazilim.com/home/eskibaskanlar/index.html (from demo4.togdemyazilim.com/home/eskibaskanlar/1)
+11:05:17	Error: 	"Not Found" (404) at link demo4.togdemyazilim.com/home/Muhtarlar/index.html (from demo4.togdemyazilim.com/home/Muhtarlar/1)
+11:05:17	Error: 	"Not Found" (404) at link demo4.togdemyazilim.com/kentrehberi/index.html (from demo4.togdemyazilim.com/kentrehberi/tarihi-kaleici-67)
+11:05:17	Error: 	"Not Found" (404) at link demo4.togdemyazilim.com/kentrehberi/kentrehberiliste/feed/index.html (from demo4.togdemyazilim.com/kentrehberi/kentrehberiliste/tarihi-yer/1)
+11:05:17	Error: 	"Not Found" (404) at link demo4.togdemyazilim.com/kentrehberi/kentrehberiliste/xmlrpc0db0.php?rsd (from demo4.togdemyazilim.com/kentrehberi/kentrehberiliste/tarihi-yer/1)
+11:05:17	Error: 	"Not Found" (404) at link demo4.togdemyazilim.com/kentrehberi/kentrehberiliste/tarihi-yer/index.html (from demo4.togdemyazilim.com/kentrehberi/kentrehberiliste/tarihi-yer/1)
+11:05:17	Error: 	"Not Found" (404) at link demo4.togdemyazilim.com/kentrehberi/kentrehberiliste/index198a.html?p=101 (from demo4.togdemyazilim.com/kentrehberi/kentrehberiliste/tarihi-yer/1)
+11:06:34	Error: 	"Not Found" (404) at link demo4.togdemyazilim.com/kentrehberi/kentrehberiliste/sosyal-tesis/index.html (from demo4.togdemyazilim.com/kentrehberi/kentrehberiliste/sosyal-tesis/1)
+11:07:19	Error: 	"Not Found" (404) at link demo4.togdemyazilim.com/home/sehitlerimiz/index.html (from demo4.togdemyazilim.com/home/sehitlerimiz/1)
+11:07:19	Error: 	"Not Found" (404) at link demo4.togdemyazilim.com/Etkinlikler/index.html (from demo4.togdemyazilim.com/Etkinlikler/1)
+11:07:19	Error: 	"Not Found" (404) at link demo4.togdemyazilim.com/projeler/index.html (from demo4.togdemyazilim.com/projeler/belediye-saglik-tarama-tedavi-merkezi-projesi-76)
+11:07:19	Error: 	"Not Found" (404) at link demo4.togdemyazilim.com/projeler/projelistesi/feed/index.html (from demo4.togdemyazilim.com/projeler/projelistesi/planlanan/1)
+11:07:19	Error: 	"Not Found" (404) at link demo4.togdemyazilim.com/projeler/projelistesi/xmlrpc0db0.php?rsd (from demo4.togdemyazilim.com/projeler/projelistesi/planlanan/1)
+11:07:19	Error: 	"Not Found" (404) at link demo4.togdemyazilim.com/projeler/projelistesi/planlanan/index.html (from demo4.togdemyazilim.com/projeler/projelistesi/planlanan/1)
+11:07:19	Error: 	"Not Found" (404) at link demo4.togdemyazilim.com/projeler/projelistesi/index198a.html?p=101 (from demo4.togdemyazilim.com/projeler/projelistesi/planlanan/1)
+
+HTTrack Website Copier/3.49-2 mirror complete in 13 minutes 45 seconds : 518 links scanned, 478 files written (105798680 bytes overall) [97993886 bytes received at 118780 bytes/sec], 10450478 bytes transferred using HTTP compression in 127 files, ratio 21%, 1.0 requests per connection
+(39 errors, 6 warnings, 0 messages)
