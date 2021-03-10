@@ -165,39 +165,39 @@
                         class="elm-cmlist clearfix elm-cmlist--skin-light element-scheme--light zn_dummy_value elm-cmlist--normal nav-with-smooth-scroll"
                       >
                         <li class="main-menu-item menu-item">
-                          <a href="home/birimler.html">Birimlerimiz</a>
+                          <a href="/home/birimler">Birimlerimiz</a>
                         </li>
                         <li class="main-menu-item menu-item">
-                          <a href="home/baskanyardimcilari.html"
+                          <a href="/home/baskanyardimcilari"
                             >Başkan Yardımcıları</a
                           >
                         </li>
                         <li class="main-menu-item menu-item">
-                          <a href="home/meclisuyeleri.html">Meclis Üyeleri</a>
+                          <a href="/home/meclisuyeleri">Meclis Üyeleri</a>
                         </li>
                         <li class="main-menu-item menu-item">
-                          <a href="home/encumenler.html">Encümen</a>
+                          <a href="/home/encumenler">Encümen</a>
                         </li>
                         <li class="main-menu-item menu-item">
-                          <a href="home/eskibaskanlar.html">Eski Başkanlar</a>
+                          <a href="/home/eskibaskanlar">Eski Başkanlar</a>
                         </li>
                         <li class="main-menu-item menu-item">
-                          <a href="home/mecliskararlari.html"
+                          <a href="/home/mecliskararlari"
                             >Meclis Kararları</a
                           >
                         </li>
                         <li class="main-menu-item menu-item">
-                          <a href="home/komisyonkararlari.html"
+                          <a href="/home/komisyonkararlari"
                             >Komisyon Kararları</a
                           >
                         </li>
                         <li class="main-menu-item menu-item">
-                          <a href="home/faaliyetraporlari.html"
+                          <a href="/home/faaliyetraporlari"
                             >Faaliyet Raporları</a
                           >
                         </li>
                         <li class="main-menu-item menu-item">
-                          <a href="home/faaliyetraporlari.html"
+                          <a href="/home/misyonvizyon"
                             >Misyon & Vizyon</a
                           >
                         </li>
@@ -229,21 +229,21 @@
                         class="elm-cmlist clearfix elm-cmlist--skin-light element-scheme--light zn_dummy_value elm-cmlist--normal nav-with-smooth-scroll"
                       >
                         <li class="main-menu-item menu-item">
-                          <a href="home/tarihce.html"> G&#252;nceTarihçesi</a>
+                          <a href="/home/tarihce"> G&#252;nceTarihçesi</a>
                         </li>
                         <li class="main-menu-item menu-item">
-                          <a href="home/kentrehberi.html">Kent Rehberi</a>
+                          <a href="/home/kentrehberi">Kent Rehberi</a>
                         </li>
                         <li class="main-menu-item menu-item">
-                          <a href="home/galeri/1.html"
+                          <a href="/home/galeri/1"
                             >Fotoğraflarla G&#252;nce</a
                           >
                         </li>
                         <li class="main-menu-item menu-item">
-                          <a href="home/sehitlerimiz.html">Şehitlerimiz</a>
+                          <a href="/home/sehitlerimiz">Şehitlerimiz</a>
                         </li>
                         <li class="main-menu-item menu-item">
-                          <a href="home/nikahlar.html">Nikahlar</a>
+                          <a href="/home/nikahlar">Nikahlar</a>
                         </li>
                         <li class="main-menu-item menu-item">
                           <a>360° G&#252;nce</a>
@@ -276,12 +276,12 @@
                         class="elm-cmlist clearfix elm-cmlist--skin-light element-scheme--light zn_dummy_value elm-cmlist--normal nav-with-smooth-scroll"
                       >
                         <li id="mhg" class="menu-item menu-item-type-custom">
-                          <a href="haberler/index.html"
+                          <a href="/haberler/1"
                             ><span>Haberler</span></a
                           >
                         </li>
                         <li id="meg" class="menu-item menu-item-type-custom">
-                          <a href="etkinlikler.html"
+                          <a href="/etkinlikler/1"
                             ><span>Etkinlikler</span></a
                           >
                         </li>
@@ -289,7 +289,7 @@
                           <a href="#"><span>Duyurular</span></a>
                         </li>
                         <li id="mdg" class="menu-item menu-item-type-custom">
-                          <a href="home/projeler.html"><span>Projeler</span></a>
+                          <a href="/projeler"><span>Projeler</span></a>
                         </li>
                       </ul>
                     </div>
@@ -320,13 +320,13 @@
                           <a href="#">e-Belediye</a>
                         </li>
                         <li class="main-menu-item menu-item">
-                          <a href="home/vefatedenler.html">Vefat Edenler</a>
+                          <a href="/home/vefatedenler">Vefat Edenler</a>
                         </li>
                         <li class="main-menu-item menu-item">
-                          <a href="home/kentrehberi.html">Kent Rehberi</a>
+                          <a href="/kentrehberi">Kent Rehberi</a>
                         </li>
                         <li class="main-menu-item menu-item">
-                          <a href="home/iletisim.html">İstek & Şikayet</a>
+                          <a href="/home/iletisim">İstek & Şikayet</a>
                         </li>
                         <li class="main-menu-item menu-item">
                           <a href="#">e-İmar</a>
@@ -335,16 +335,16 @@
                           <a href="#">Nöbetçi Eczaneler</a>
                         </li>
                         <li class="main-menu-item menu-item">
-                          <a href="home/bifikrimvar.html">Bir Fikrim Var</a>
+                          <a href="/home/bifikrimvar">Bir Fikrim Var</a>
                         </li>
                         <li class="main-menu-item menu-item">
                           <a>Şehir Kameraları</a>
                         </li>
                         <li class="main-menu-item menu-item">
-                          <a href="home/index.html#">Nikah Belgeleri</a>
+                          <a href="/home/belgeornekleri">Nikah Belgeleri</a>
                         </li>
                         <li class="main-menu-item menu-item">
-                          <a href="home/index.html#">Belge Örnekleri</a>
+                          <a href="/home/belgeornekleri">Belge Örnekleri</a>
                         </li>
                       </ul>
                     </div>

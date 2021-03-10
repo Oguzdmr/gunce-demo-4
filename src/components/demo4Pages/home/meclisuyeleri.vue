@@ -25,7 +25,7 @@
                       class="breadcrumbs fixclear bread-style--minimal"
                     >
                       <li property="itemListElement" typeof="ListItem">
-                        <a property="item" typeof="WebPage" href="../index.html"
+                        <a property="item" typeof="WebPage" href="/"
                           ><span property="name">Anasayfa</span></a
                         >
                         <meta property="position" content="1" />
@@ -249,7 +249,7 @@
                                     <a
                                       style="color:#ff7200;"
                                       class="sayfanumarasi"
-                                      href="meclisuyeleri/1.html"
+                                      href="/meclisuyeleri/1"
                                       >1</a
                                     >
                                   </div>

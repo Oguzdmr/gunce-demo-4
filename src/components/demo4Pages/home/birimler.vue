@@ -191,7 +191,7 @@
                                     <a
                                       style="color:#ff7200;"
                                       class="sayfanumarasi"
-                                      href="birimler/1.html"
+                                      href="/birimler/1"
                                       >1</a
                                     >
                                   </div>

@@ -88,7 +88,7 @@
                                     <a
                                       style="color:#ff7200;"
                                       class="sayfanumarasi"
-                                      href="sehitlerimiz/1.html"
+                                      href="/sehitlerimiz/1"
                                       >1</a
                                     >
                                   </div>

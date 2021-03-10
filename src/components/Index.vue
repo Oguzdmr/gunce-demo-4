@@ -104,21 +104,21 @@
                       </h4>
                       <p>
                         <a
-                          href="home/baskan.html"
+                          href="/home/baskan"
                           class="baskanbtn btn btn-primary"
                           >Başkan &#214;zge&#231;miş</a
                         >
                       </p>
                       <p>
                         <a
-                          href="home/baskanasor.html"
+                          href="/home/baskanasor"
                           class="baskanbtn btn btn-primary"
                           >Başkana Sor</a
                         >
                       </p>
                       <p>
                         <a
-                          href="home/baskanalbum.html"
+                          href="/home/baskanalbum"
                           class="baskanbtn btn btn-primary"
                           >Başkan Alb&#252;m</a
                         >
@@ -172,14 +172,14 @@
                               class="eluid461f08f0 col-md-12 col-sm-12   znColumnElement"
                               id="eluidd27690a5"
                             >
-                              <a id="tumhaberler" href="haberler/1.html"
+                              <a id="tumhaberler" href="/haberler/1"
                                 ><i class="fas fa-th-large"></i> Hepsi</a
                               >
                               <div class="hedslayt">
                                 <div class="haber">
                                   <div class="col-md-12">
                                     <a
-                                      href="haberler/250-bin-cicek-toprakla-bulusuyor-2297.html"
+                                      href="/haberler/250-bin-cicek-toprakla-bulusuyor-2297"
                                       ><img
                                         src="../../public/admin.togdem.com/AdminPanel_Assets/img/haberler/32/250-bin-cicek-toprakla-bulusuyor-4.jpg"
                                         alt="250 bin çiçek toprakla buluşuyor"
@@ -198,7 +198,7 @@
                                 <div class="haber">
                                   <div class="col-md-12">
                                     <a
-                                      href="haberler/asfaltlama-calismalari-devam-ediyor-2296.html"
+                                      href="/haberler/asfaltlama-calismalari-devam-ediyor-2296"
                                       ><img
                                         src="../../public/admin.togdem.com/AdminPanel_Assets/img/haberler/32/asfaltlama-calismalari-devam-ediyor-3.jpg"
                                         alt="Asfaltlama çalışmaları devam ediyor"
@@ -217,7 +217,7 @@
                                 <div class="haber">
                                   <div class="col-md-12">
                                     <a
-                                      href="haberler/sokak-hayvanlarini-unutmadik-2295.html"
+                                      href="/haberler/sokak-hayvanlarini-unutmadik-2295"
                                       ><img
                                         src="../../public/admin.togdem.com/AdminPanel_Assets/img/haberler/32/sokak-hayvanlarini-unutmadik-3.jpg"
                                         alt="Sokak hayvanlarını unutmadık"
@@ -235,7 +235,7 @@
                                 <div class="haber">
                                   <div class="col-md-12">
                                     <a
-                                      href="haberler/kar-gunceye-cok-yakisti-2294.html"
+                                      href="/haberler/kar-gunceye-cok-yakisti-2294"
                                       ><img
                                         src="../../public/admin.togdem.com/AdminPanel_Assets/img/haberler/32/kar-gunceye-cok-yakisti-3.jpg"
                                         alt="Kar Günce ye çok yakıştı"
@@ -253,7 +253,7 @@
                                 <div class="haber">
                                   <div class="col-md-12">
                                     <a
-                                      href="haberler/uc-bolgeyi-asfaltla-bulusturduk-2293.html"
+                                      href="/haberler/uc-bolgeyi-asfaltla-bulusturduk-2293"
                                       ><img
                                         src="../../public/admin.togdem.com/AdminPanel_Assets/img/haberler/32/uc-bolgeyi-asfaltla-bulusturduk-5.jpg"
                                         alt="Üç Bölgeyi Asfaltla Buluşturduk"
@@ -272,7 +272,7 @@
                                 <div class="haber">
                                   <div class="col-md-12">
                                     <a
-                                      href="haberler/corona-virusune-karsi-tedbir-2292.html"
+                                      href="/haberler/corona-virusune-karsi-tedbir-2292"
                                       ><img
                                         src="../../public/admin.togdem.com/AdminPanel_Assets/img/haberler/32/corona-virusune-karsi-tedbir-6.jpg"
                                         alt="Corona Virüsüne Karşı Tedbir"
@@ -290,7 +290,7 @@
                                 <div class="haber">
                                   <div class="col-md-12">
                                     <a
-                                      href="haberler/asfalt-bakim-onarim-calismalari-devam-ed-2291.html"
+                                      href="/haberler/asfalt-bakim-onarim-calismalari-devam-ed-2291"
                                       ><img
                                         src="../../public/admin.togdem.com/AdminPanel_Assets/img/haberler/32/asfalt-bakim-onarim-calismalari-devam-ediyor-4.jpg"
                                         alt="Asfalt Bakım-Onarım Çalışmaları Devam Ediyor"
@@ -309,7 +309,7 @@
                                 <div class="haber">
                                   <div class="col-md-12">
                                     <a
-                                      href="haberler/parklara-bahar-bakimi-2290.html"
+                                      href="/haberler/parklara-bahar-bakimi-2290"
                                       ><img
                                         src="../../public/admin.togdem.com/AdminPanel_Assets/img/haberler/32/parklara-bahar-bakimi-2.jpg"
                                         alt="Parklara Bahar Bakımı"
@@ -327,7 +327,7 @@
                                 <div class="haber">
                                   <div class="col-md-12">
                                     <a
-                                      href="haberler/cocuk-oyun-alanlari-dezenfekte-ediliyor-2289.html"
+                                      href="/haberler/cocuk-oyun-alanlari-dezenfekte-ediliyor-2289"
                                       ><img
                                         src="../../public/admin.togdem.com/AdminPanel_Assets/img/haberler/32/cocuk-oyun-alanlari-dezenfekte-ediliyor_6.jpg"
                                         alt="Çocuk oyun alanları dezenfekte ediliyor"
@@ -353,13 +353,13 @@
                               class="eluid5a699a39 col-md-12 col-sm-12   znColumnElement"
                               id="eluid5a9b8d9d"
                             >
-                              <a id="tumhaberler" href="etkinlikler/1.html"
+                              <a id="tumhaberler" href="/etkinlikler/1"
                                 ><i class="fas fa-th-large"></i> Hepsi</a
                               >
                               <div class="hedslayt">
                                 <div class="etkinlik">
                                   <div class="col-md-12">
-                                    <a href="etkinlikler/memleketim-1305.html"
+                                    <a href="/etkinlikler/memleketim-1305"
                                       ><img
                                         style=" height:513px; width:100%; object-fit: cover;"
                                         src="../../public/admin.togdem.com/AdminPanel_Assets/img/etkinlikler/32/memleketim-3.jpg"
@@ -377,7 +377,7 @@
                                 <div class="etkinlik">
                                   <div class="col-md-12">
                                     <a
-                                      href="etkinlikler/amiral-batti-kaciyorusss-tiyatrosu-1302.html"
+                                      href="/etkinlikler/amiral-batti-kaciyorusss-tiyatrosu-1302"
                                       ><img
                                         style=" height:513px; width:100%; object-fit: cover;"
                                         src="../../public/admin.togdem.com/AdminPanel_Assets/img/etkinlikler/32/amiral-batti-kaciyorusss-tiyatrosu-3.jpg"
@@ -396,7 +396,7 @@
                                 <div class="etkinlik">
                                   <div class="col-md-12">
                                     <a
-                                      href="etkinlikler/windsorun-sen-kadinlari-1303.html"
+                                      href="/etkinlikler/windsorun-sen-kadinlari-1303"
                                       ><img
                                         style=" height:513px; width:100%; object-fit: cover;"
                                         src="../../public/admin.togdem.com/AdminPanel_Assets/img/etkinlikler/32/windsorun-sen-kadinlari-3.jpg"
@@ -414,7 +414,7 @@
                                 <div class="etkinlik">
                                   <div class="col-md-12">
                                     <a
-                                      href="etkinlikler/kamelyali-kadin-1304.html"
+                                      href="/etkinlikler/kamelyali-kadin-1304"
                                       ><img
                                         style=" height:513px; width:100%; object-fit: cover;"
                                         src="../../public/admin.togdem.com/AdminPanel_Assets/img/etkinlikler/32/kamelyali-kadin-3.jpg"
@@ -432,7 +432,7 @@
                                 <div class="etkinlik">
                                   <div class="col-md-12">
                                     <a
-                                      href="etkinlikler/buzlar-cozulmeden-1306.html"
+                                      href="/etkinlikler/buzlar-cozulmeden-1306"
                                       ><img
                                         style=" height:513px; width:100%; object-fit: cover;"
                                         src="../../public/admin.togdem.com/AdminPanel_Assets/img/etkinlikler/32/buzlar-cozulmeden-3.jpg"
@@ -457,14 +457,14 @@
                               class="eluid5a699a39 col-md-12 col-sm-12   znColumnElement"
                               id="eluid5a9b8d9d"
                             >
-                              <a id="tumhaberler" href="home/duyurular.html"
+                              <a id="tumhaberler" href="/home/duyurular"
                                 ><i class="fas fa-th-large"></i> Hepsi</a
                               >
                               <div class="hedslayt">
                                 <div class="haber">
                                   <div class="col-md-12">
                                     <a
-                                      href="duyurular/maskemizi-takalim-mesafemizi-koruyalim-4083.html"
+                                      href="/duyurular/maskemizi-takalim-mesafemizi-koruyalim-4083"
                                       ><img
                                         src="../../public/admin.togdem.com/AdminPanel_Assets/img/duyuruilan.png"
                                         alt="Maskemizi takalım mesafemizi koruyalım"
@@ -513,7 +513,7 @@
                     </a>
                   </div>
                   <div class="hizmet">
-                    <a href="home/isteksikayet.html">
+                    <a href="/home/isteksikayet">
                       <img
                         src="../../public/admin.togdem.com/AdminPanel_Assets/img/siteicerik/32/1/hizmetucresim.png"
                       />
@@ -521,7 +521,7 @@
                     </a>
                   </div>
                   <div class="hizmet">
-                    <a href="home/kentrehberi.html">
+                    <a href="/kentrehberi">
                       <img
                         src="../../public/admin.togdem.com/AdminPanel_Assets/img/siteicerik/32/1/hizmetdortresim.png"
                       />
@@ -537,7 +537,7 @@
                     </a>
                   </div>
                   <div class="hizmet">
-                    <a href="home/vefatedenler.html">
+                    <a href="/home/vefatedenler">
                       <img
                         src="../../public/admin.togdem.com/AdminPanel_Assets/img/siteicerik/32/1/hizmetaltiresim.png"
                       />
@@ -545,7 +545,7 @@
                     </a>
                   </div>
                   <div class="hizmet">
-                    <a href="home/bifikrimvar.html">
+                    <a href="/home/bifikrimvar">
                       <img
                         src="../../public/admin.togdem.com/AdminPanel_Assets/img/resimGuncelle/32/292.png"
                       />
@@ -804,7 +804,7 @@
                                               class="image-boxes image-boxes--1 eluid7ba456bb blackposts image-boxes-cover-fit-img imgboxes_style1"
                                             >
                                               <a
-                                                href="home/galeri/1.html"
+                                                href="/home/galeri/1"
                                                 class="hoverBorder imgboxes-wrapper image-boxes-link"
                                                 target="_self"
                                                 itemprop="url"
@@ -836,7 +836,7 @@
                                               class="image-boxes image-boxes--1 eluid7ba456bb blackposts image-boxes-cover-fit-img imgboxes_style1"
                                             >
                                               <a
-                                                href="home/galeri/1.html"
+                                                href="/home/galeri/1"
                                                 class="hoverBorder imgboxes-wrapper image-boxes-link"
                                                 target="_self"
                                                 itemprop="url"
@@ -868,7 +868,7 @@
                                               class="image-boxes image-boxes--1 eluid7ba456bb blackposts image-boxes-cover-fit-img imgboxes_style1"
                                             >
                                               <a
-                                                href="home/galeri/1.html"
+                                                href="/home/galeri/1"
                                                 class="hoverBorder imgboxes-wrapper image-boxes-link"
                                                 target="_self"
                                                 itemprop="url"
@@ -900,7 +900,7 @@
                                               class="image-boxes image-boxes--1 eluid7ba456bb blackposts image-boxes-cover-fit-img imgboxes_style1"
                                             >
                                               <a
-                                                href="home/galeri/1.html"
+                                                href="/home/galeri/1"
                                                 class="hoverBorder imgboxes-wrapper image-boxes-link"
                                                 target="_self"
                                                 itemprop="url"
@@ -932,7 +932,7 @@
                                               class="image-boxes image-boxes--1 eluid7ba456bb blackposts image-boxes-cover-fit-img imgboxes_style1"
                                             >
                                               <a
-                                                href="home/galeri/1.html"
+                                                href="/home/galeri/1"
                                                 class="hoverBorder imgboxes-wrapper image-boxes-link"
                                                 target="_self"
                                                 itemprop="url"
@@ -964,7 +964,7 @@
                                               class="image-boxes image-boxes--1 eluid7ba456bb blackposts image-boxes-cover-fit-img imgboxes_style1"
                                             >
                                               <a
-                                                href="home/galeri/1.html"
+                                                href="/home/galeri/1"
                                                 class="hoverBorder imgboxes-wrapper image-boxes-link"
                                                 target="_self"
                                                 itemprop="url"
@@ -1019,7 +1019,7 @@
                                               class="image-boxes image-boxes--1 eluid7ba456bb blackposts image-boxes-cover-fit-img imgboxes_style1"
                                             >
                                               <a
-                                                href="home/baskanalbum/1.html"
+                                                href="/home/baskanalbum/1"
                                                 class="hoverBorder imgboxes-wrapper image-boxes-link"
                                                 target="_self"
                                                 itemprop="url"
@@ -1051,7 +1051,7 @@
                                               class="image-boxes image-boxes--1 eluid7ba456bb blackposts image-boxes-cover-fit-img imgboxes_style1"
                                             >
                                               <a
-                                                href="home/baskanalbum/1.html"
+                                                href="/home/baskanalbum/1"
                                                 class="hoverBorder imgboxes-wrapper image-boxes-link"
                                                 target="_self"
                                                 itemprop="url"
@@ -1083,7 +1083,7 @@
                                               class="image-boxes image-boxes--1 eluid7ba456bb blackposts image-boxes-cover-fit-img imgboxes_style1"
                                             >
                                               <a
-                                                href="home/baskanalbum/1.html"
+                                                href="/home/baskanalbum/1"
                                                 class="hoverBorder imgboxes-wrapper image-boxes-link"
                                                 target="_self"
                                                 itemprop="url"
@@ -1115,7 +1115,7 @@
                                               class="image-boxes image-boxes--1 eluid7ba456bb blackposts image-boxes-cover-fit-img imgboxes_style1"
                                             >
                                               <a
-                                                href="home/baskanalbum/1.html"
+                                                href="/home/baskanalbum/1"
                                                 class="hoverBorder imgboxes-wrapper image-boxes-link"
                                                 target="_self"
                                                 itemprop="url"
@@ -1147,7 +1147,7 @@
                                               class="image-boxes image-boxes--1 eluid7ba456bb blackposts image-boxes-cover-fit-img imgboxes_style1"
                                             >
                                               <a
-                                                href="home/baskanalbum/1.html"
+                                                href="/home/baskanalbum/1"
                                                 class="hoverBorder imgboxes-wrapper image-boxes-link"
                                                 target="_self"
                                                 itemprop="url"
@@ -1179,7 +1179,7 @@
                                               class="image-boxes image-boxes--1 eluid7ba456bb blackposts image-boxes-cover-fit-img imgboxes_style1"
                                             >
                                               <a
-                                                href="home/baskanalbum/1.html"
+                                                href="/home/baskanalbum/1"
                                                 class="hoverBorder imgboxes-wrapper image-boxes-link"
                                                 target="_self"
                                                 itemprop="url"
@@ -1522,7 +1522,7 @@
                                     class="image-boxes image-boxes--4 kl-title_style_left eluid730f61be   image-boxes-cover-fit-img  imgboxes_style4"
                                   >
                                     <a
-                                      href="projeler.html"
+                                      href="/projeler"
                                       class="imgboxes4_link imgboxes-wrapper image-boxes-link   u-mb-0"
                                       target="_self"
                                       itemprop="url"
@@ -1652,7 +1652,7 @@
                                     class="image-boxes image-boxes--4 kl-title_style_left eluidab937708   image-boxes-cover-fit-img  imgboxes_style4"
                                   >
                                     <a
-                                      href="projeler.html"
+                                      href="/projeler"
                                       class="imgboxes4_link imgboxes-wrapper image-boxes-link   u-mb-0"
                                       target="_self"
                                       itemprop="url"
@@ -1767,7 +1767,7 @@
                                     class="image-boxes image-boxes--4 kl-title_style_left eluidfcd82651   image-boxes-cover-fit-img  imgboxes_style4"
                                   >
                                     <a
-                                      href="projeler.html"
+                                      href="/projeler"
                                       class="imgboxes4_link imgboxes-wrapper image-boxes-link   u-mb-0"
                                       target="_self"
                                       itemprop="url"

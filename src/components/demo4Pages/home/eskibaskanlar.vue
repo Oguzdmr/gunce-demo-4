@@ -161,7 +161,7 @@
                                     <a
                                       style="color:#ff7200;"
                                       class="sayfanumarasi"
-                                      href="eskibaskanlar/1.html"
+                                      href="/eskibaskanlar/1"
                                       >1</a
                                     >
                                   </div>

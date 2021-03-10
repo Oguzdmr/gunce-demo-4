@@ -281,19 +281,19 @@
                                     <a
                                       style="color:#ff7200;"
                                       class="sayfanumarasi"
-                                      href="encumenler/1.html"
+                                      href="/encumenler/1"
                                       >1</a
                                     ><a
                                       class="sayfanumarasi"
-                                      href="encumenler/2.html"
+                                      href="/encumenler/2"
                                       >2</a
                                     ><a
                                       class="sayfanumarasi"
-                                      href="encumenler/2.html"
+                                      href="/encumenler/2"
                                       ><i class="fas fa-chevron-right"></i></a
                                     ><a
                                       class="sayfanumarasi"
-                                      href="encumenler/2.html"
+                                      href="/encumenler/2"
                                       ><i class="fas fa-chevron-right"></i
                                       ><i class="fas fa-chevron-right"></i
                                     ></a>

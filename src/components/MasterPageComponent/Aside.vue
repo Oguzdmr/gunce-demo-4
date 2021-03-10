@@ -38,7 +38,7 @@
                 </div>
 
                 <div
-                  class="eluid5763cd29 u-mb-50  col-md-12 col-sm-12 znColumnElement"
+                  class="eluid5763cd29 u-mb-50 col-md-12 col-sm-12 znColumnElement"
                   id="eluid19645ec6"
                 >
                   <div
@@ -109,7 +109,7 @@
                             >
                               <div class="grid-ibx__item-inner">
                                 <a
-                                  href="home/isteksikayet.html"
+                                  href="/home/isteksikayet"
                                   class="grid-ibx__link clearfix"
                                   target="_self"
                                   itemprop="url"
@@ -136,7 +136,7 @@
                             >
                               <div class="grid-ibx__item-inner">
                                 <a
-                                  href="kentrehberi.html"
+                                  href="/kentrehberi"
                                   class="grid-ibx__link clearfix"
                                   target="_self"
                                   itemprop="url"
@@ -190,7 +190,7 @@
                             >
                               <div class="grid-ibx__item-inner">
                                 <a
-                                  href="home/vefatedenler.html"
+                                  href="/home/vefatedenler"
                                   class="grid-ibx__link clearfix"
                                   target="_self"
                                   itemprop="url"
@@ -217,7 +217,7 @@
                             >
                               <div class="grid-ibx__item-inner">
                                 <a
-                                  href="home/bifikrimvar.html"
+                                  href="/home/bifikrimvar"
                                   class="grid-ibx__link clearfix"
                                   target="_self"
                                   itemprop="url"
@@ -284,7 +284,7 @@
                         class="lp-post latest_posts-wgt-post"
                       >
                         <a
-                          href="haberler/250-bin-cicek-toprakla-bulusuyor-2297.html"
+                          href="/haberler/250-bin-cicek-toprakla-bulusuyor-2297"
                           class="hoverBorder pull-left latest_posts-wgt-thumb"
                           ><img
                             width="54"
@@ -298,7 +298,7 @@
                           itemprop="headline"
                         >
                           <a
-                            href="haberler/250-bin-cicek-toprakla-bulusuyor-2297.html"
+                            href="/haberler/250-bin-cicek-toprakla-bulusuyor-2297"
                             class="latest_posts-wgt-title-link"
                             title="250 bin çiçek toprakla buluşuyor"
                             >250 bin çiçek toprakla buluşuy...</a
@@ -316,7 +316,7 @@
                         class="lp-post latest_posts-wgt-post"
                       >
                         <a
-                          href="haberler/asfaltlama-calismalari-devam-ediyor-2296.html"
+                          href="/haberler/asfaltlama-calismalari-devam-ediyor-2296"
                           class="hoverBorder pull-left latest_posts-wgt-thumb"
                           ><img
                             width="54"
@@ -330,7 +330,7 @@
                           itemprop="headline"
                         >
                           <a
-                            href="haberler/asfaltlama-calismalari-devam-ediyor-2296.html"
+                            href="/haberler/asfaltlama-calismalari-devam-ediyor-2296"
                             class="latest_posts-wgt-title-link"
                             title="Asfaltlama çalışmaları devam ediyor"
                             >Asfaltlama çalışmaları devam e...</a
@@ -348,7 +348,7 @@
                         class="lp-post latest_posts-wgt-post"
                       >
                         <a
-                          href="haberler/sokak-hayvanlarini-unutmadik-2295.html"
+                          href="/haberler/sokak-hayvanlarini-unutmadik-2295"
                           class="hoverBorder pull-left latest_posts-wgt-thumb"
                           ><img
                             width="54"
@@ -362,7 +362,7 @@
                           itemprop="headline"
                         >
                           <a
-                            href="haberler/sokak-hayvanlarini-unutmadik-2295.html"
+                            href="/haberler/sokak-hayvanlarini-unutmadik-2295"
                             class="latest_posts-wgt-title-link"
                             title="Sokak hayvanlarını unutmadık"
                             >Sokak hayvanlarını unutmadık</a
@@ -380,7 +380,7 @@
                         class="lp-post latest_posts-wgt-post"
                       >
                         <a
-                          href="haberler/kar-gunceye-cok-yakisti-2294.html"
+                          href="/haberler/kar-gunceye-cok-yakisti-2294"
                           class="hoverBorder pull-left latest_posts-wgt-thumb"
                           ><img
                             width="54"
@@ -394,7 +394,7 @@
                           itemprop="headline"
                         >
                           <a
-                            href="haberler/kar-gunceye-cok-yakisti-2294.html"
+                            href="/haberler/kar-gunceye-cok-yakisti-2294"
                             class="latest_posts-wgt-title-link"
                             title="Kar Günce ye çok yakıştı"
                             >Kar Günce'ye çok yakıştı</a
@@ -412,7 +412,7 @@
                         class="lp-post latest_posts-wgt-post"
                       >
                         <a
-                          href="haberler/uc-bolgeyi-asfaltla-bulusturduk-2293.html"
+                          href="/haberler/uc-bolgeyi-asfaltla-bulusturduk-2293"
                           class="hoverBorder pull-left latest_posts-wgt-thumb"
                           ><img
                             width="54"
@@ -426,7 +426,7 @@
                           itemprop="headline"
                         >
                           <a
-                            href="haberler/uc-bolgeyi-asfaltla-bulusturduk-2293.html"
+                            href="/haberler/uc-bolgeyi-asfaltla-bulusturduk-2293"
                             class="latest_posts-wgt-title-link"
                             title="Üç Bölgeyi Asfaltla Buluşturduk"
                             >Üç Bölgeyi Asfaltla Buluşturdu...</a

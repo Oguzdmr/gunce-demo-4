@@ -221,7 +221,7 @@
                                     <a
                                       style="color:#ff7200;"
                                       class="sayfanumarasi"
-                                      href="baskanyardimcilari/1.html"
+                                      href="/baskanyardimcilari/1"
                                       >1</a
                                     >
                                   </div>

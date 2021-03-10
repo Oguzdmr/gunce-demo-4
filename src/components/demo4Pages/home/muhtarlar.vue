@@ -25,7 +25,7 @@
                       class="breadcrumbs fixclear bread-style--minimal"
                     >
                       <li property="itemListElement" typeof="ListItem">
-                        <a property="item" typeof="WebPage" href="../index.html"
+                        <a property="item" typeof="WebPage" href="/"
                           ><span property="name">Anasayfa</span></a
                         >
                         <meta property="position" content="1" />
@@ -333,19 +333,19 @@
                                     <a
                                       style="color:#ff7200;"
                                       class="sayfanumarasi"
-                                      href="Muhtarlar/1.html"
+                                      href="/muhtarlar/1"
                                       >1</a
                                     ><a
                                       class="sayfanumarasi"
-                                      href="Muhtarlar/2.html"
+                                      href="/muhtarlar/2"
                                       >2</a
                                     ><a
                                       class="sayfanumarasi"
-                                      href="Muhtarlar/2.html"
+                                      href="/muhtarlar/2"
                                       ><i class="fas fa-chevron-right"></i></a
                                     ><a
                                       class="sayfanumarasi"
-                                      href="Muhtarlar/2.html"
+                                      href="/muhtarlar/2"
                                       ><i class="fas fa-chevron-right"></i
                                       ><i class="fas fa-chevron-right"></i
                                     ></a>

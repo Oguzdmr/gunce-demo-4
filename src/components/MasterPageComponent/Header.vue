@@ -72,7 +72,7 @@
                   class="fxb-row site-header-row site-header-main "
                   style="height:108px;"
                 >
-                  <a class="col-md-3 col-sm-12" id="logo" href="index.html"
+                  <a class="col-md-3 col-sm-12" id="logo" href="/"
                     ><img
                       src="../../../public/admin.togdem.com/AdminPanel_Assets/img/resimGuncelle/32/20200512134946883.png"
                   /></a>
@@ -236,7 +236,7 @@
                                 <a href="/kentrehberi">Kent Rehberi</a>
                               </li>
                               <li class="main-menu-item menu-item">
-                                <a href="home/galeri/1.html"
+                                <a href="/home/galeri/1"
                                   >Fotoğraflarla G&#252;nce</a
                                 >
                               </li>
@@ -306,7 +306,7 @@
                                                   id="mhg"
                                                   class="menu-item menu-item-type-custom"
                                                 >
-                                                  <a href="haberler/1.html"
+                                                  <a href="/haberler/1"
                                                     ><span>Haberler</span></a
                                                   >
                                                 </li>
@@ -314,7 +314,7 @@
                                                   id="meg"
                                                   class="menu-item menu-item-type-custom"
                                                 >
-                                                  <a href="etkinlikler/1.html"
+                                                  <a href="/etkinlikler/1"
                                                     ><span>Etkinlikler</span></a
                                                   >
                                                 </li>
@@ -434,7 +434,7 @@
                                                           class="image-boxes image-boxes--4 kl-title_style_left eluid0d25412b   image-boxes-cover-fit-img  imgboxes_style4"
                                                         >
                                                           <a
-                                                            href="haberler/250-bin-cicek-toprakla-bulusuyor-2297.html"
+                                                            href="/haberler/250-bin-cicek-toprakla-bulusuyor-2297"
                                                             class="imgboxes4_link imgboxes-wrapper image-boxes-link   "
                                                             target="_self"
                                                             itemprop="url"
@@ -478,7 +478,7 @@
                                                           class="image-boxes image-boxes--4 kl-title_style_left eluid0d25412b   image-boxes-cover-fit-img  imgboxes_style4"
                                                         >
                                                           <a
-                                                            href="haberler/asfaltlama-calismalari-devam-ediyor-2296.html"
+                                                            href="/haberler/asfaltlama-calismalari-devam-ediyor-2296"
                                                             class="imgboxes4_link imgboxes-wrapper image-boxes-link   "
                                                             target="_self"
                                                             itemprop="url"
@@ -522,7 +522,7 @@
                                                           class="image-boxes image-boxes--4 kl-title_style_left eluid0d25412b   image-boxes-cover-fit-img  imgboxes_style4"
                                                         >
                                                           <a
-                                                            href="haberler/sokak-hayvanlarini-unutmadik-2295.html"
+                                                            href="/haberler/sokak-hayvanlarini-unutmadik-2295"
                                                             class="imgboxes4_link imgboxes-wrapper image-boxes-link   "
                                                             target="_self"
                                                             itemprop="url"
@@ -566,7 +566,7 @@
                                                           class="image-boxes image-boxes--4 kl-title_style_left eluid0d25412b   image-boxes-cover-fit-img  imgboxes_style4"
                                                         >
                                                           <a
-                                                            href="haberler/kar-gunceye-cok-yakisti-2294.html"
+                                                            href="/haberler/kar-gunceye-cok-yakisti-2294"
                                                             class="imgboxes4_link imgboxes-wrapper image-boxes-link   "
                                                             target="_self"
                                                             itemprop="url"
@@ -610,7 +610,7 @@
                                                           class="image-boxes image-boxes--4 kl-title_style_left eluid0d25412b   image-boxes-cover-fit-img  imgboxes_style4"
                                                         >
                                                           <a
-                                                            href="haberler/uc-bolgeyi-asfaltla-bulusturduk-2293.html"
+                                                            href="/haberler/uc-bolgeyi-asfaltla-bulusturduk-2293"
                                                             class="imgboxes4_link imgboxes-wrapper image-boxes-link   "
                                                             target="_self"
                                                             itemprop="url"

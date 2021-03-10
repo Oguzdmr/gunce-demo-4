@@ -73,7 +73,7 @@
                                 class="image-boxes image-boxes--4 kl-title_style_left eluidef311b3b   image-boxes-cover-fit-img  imgboxes_style4"
                               >
                                 <a
-                                  href="projeler/belediye-saglik-tarama-tedavi-merkezi-projesi-76.html"
+                                  href="/projeler/belediye-saglik-tarama-tedavi-merkezi-projesi-76"
                                   class="imgboxes4_link imgboxes-wrapper image-boxes-link   u-mb-0"
                                   target="_self"
                                   itemprop="url"
@@ -105,7 +105,7 @@
                                 class="image-boxes image-boxes--4 kl-title_style_left eluidef311b3b   image-boxes-cover-fit-img  imgboxes_style4"
                               >
                                 <a
-                                  href="projeler/bilim-ve-teknoloji-merkezi-projesi-77.html"
+                                  href="/projeler/bilim-ve-teknoloji-merkezi-projesi-77"
                                   class="imgboxes4_link imgboxes-wrapper image-boxes-link   u-mb-0"
                                   target="_self"
                                   itemprop="url"
@@ -132,7 +132,7 @@
                               </div>
                             </div>
                             <div class="col-md-4 col-xs-6">
-                              <a href="projeler/projelistesi/planlanan/1.html"
+                              <a href="/projeler/projelistesi/planlanan/1"
                                 ><div class="dahafazla">
                                   <h3>+1<br />Daha</h3>
                                 </div></a
@@ -152,7 +152,7 @@
                                   class="image-boxes image-boxes--4 kl-title_style_left eluidef311b3b   image-boxes-cover-fit-img  imgboxes_style4"
                                 >
                                   <a
-                                    href="projeler/bakim-rehabilitasyon-ve-egitim-merkezi-79.html"
+                                    href="/projeler/bakim-rehabilitasyon-ve-egitim-merkezi-79"
                                     class="imgboxes4_link imgboxes-wrapper image-boxes-link   u-mb-0"
                                     target="_self"
                                     itemprop="url"
@@ -193,7 +193,7 @@
                                   class="image-boxes image-boxes--4 kl-title_style_left eluidef311b3b   image-boxes-cover-fit-img  imgboxes_style4"
                                 >
                                   <a
-                                    href="projeler/sanatcilar-parki-revizyonu-80.html"
+                                    href="/projeler/sanatcilar-parki-revizyonu-80"
                                     class="imgboxes4_link imgboxes-wrapper image-boxes-link   u-mb-0"
                                     target="_self"
                                     itemprop="url"
@@ -222,7 +222,7 @@
                                   class="image-boxes image-boxes--4 kl-title_style_left eluidef311b3b   image-boxes-cover-fit-img  imgboxes_style4"
                                 >
                                   <a
-                                    href="projeler/tarik-akan-gunduz-cocuk-bakimevi-81.html"
+                                    href="/projeler/tarik-akan-gunduz-cocuk-bakimevi-81"
                                     class="imgboxes4_link imgboxes-wrapper image-boxes-link   u-mb-0"
                                     target="_self"
                                     itemprop="url"

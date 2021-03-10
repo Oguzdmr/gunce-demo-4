@@ -73,7 +73,7 @@
                                 class="image-boxes image-boxes--4 kl-title_style_left eluidef311b3b   image-boxes-cover-fit-img  imgboxes_style4"
                               >
                                 <a
-                                  href="kentrehberi/tarihi-kaleici-67.html"
+                                  href="/kentrehberi/tarihi-kaleici-67"
                                   class="imgboxes4_link imgboxes-wrapper image-boxes-link   u-mb-0"
                                   target="_self"
                                   itemprop="url"
@@ -102,7 +102,7 @@
                                 class="image-boxes image-boxes--4 kl-title_style_left eluidef311b3b   image-boxes-cover-fit-img  imgboxes_style4"
                               >
                                 <a
-                                  href="kentrehberi/yivli-minare-68.html"
+                                  href="/kentrehberi/yivli-minare-68"
                                   class="imgboxes4_link imgboxes-wrapper image-boxes-link   u-mb-0"
                                   target="_self"
                                   itemprop="url"
@@ -128,7 +128,7 @@
                             </div>
                             <div class="col-md-4 col-xs-6">
                               <a
-                                href="kentrehberi/kentrehberiliste/tarihi-yer/1.html"
+                                href="/kentrehberi/kentrehberiliste/tarihi-yer/1"
                                 ><div class="dahafazla">
                                   <h3>+5<br />Daha</h3>
                                 </div></a
@@ -148,7 +148,7 @@
                                   class="image-boxes image-boxes--4 kl-title_style_left eluidef311b3b   image-boxes-cover-fit-img  imgboxes_style4"
                                 >
                                   <a
-                                    href="kentrehberi/sumbullu-bahce-konagi-61.html"
+                                    href="/kentrehberi/sumbullu-bahce-konagi-61"
                                     class="imgboxes4_link imgboxes-wrapper image-boxes-link   u-mb-0"
                                     target="_self"
                                     itemprop="url"
@@ -177,7 +177,7 @@
                                   class="image-boxes image-boxes--4 kl-title_style_left eluidef311b3b   image-boxes-cover-fit-img  imgboxes_style4"
                                 >
                                   <a
-                                    href="kentrehberi/haraccioglu-sosyal-tesisleri-62.html"
+                                    href="/kentrehberi/haraccioglu-sosyal-tesisleri-62"
                                     class="imgboxes4_link imgboxes-wrapper image-boxes-link   u-mb-0"
                                     target="_self"
                                     itemprop="url"
@@ -203,7 +203,7 @@
                               </div>
                               <div class="col-md-4 col-xs-6">
                                 <a
-                                  href="kentrehberi/kentrehberiliste/sosyal-tesis/1.html"
+                                  href="/kentrehberi/kentrehberiliste/sosyal-tesis/1"
                                   ><div class="dahafazla">
                                     <h3>+3<br />Daha</h3>
                                   </div></a

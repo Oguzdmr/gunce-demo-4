@@ -377,7 +377,7 @@
                                     <a
                                       style="color:#ff7200;"
                                       class="sayfanumarasi"
-                                      href="baskanAlbum/1-2.html"
+                                      href="/baskanAlbum/1-2"
                                       >1</a
                                     >
                                   </div>
